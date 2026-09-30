@@ -56,3 +56,12 @@ For this analysis, the following six tables are being profiled:
 | Number of Rows | 30 |
 | Number of Columns | 23 |
 | Purpose | Stores product master information, including product details, pricing, stock levels, lead times, warranty, and usage characteristics. |
+
+### 2.4 Inventory Master
+
+| Attribute | Value |
+|---|---|
+| Table Name | `inventory_master` |
+| Number of Rows | 180 |
+| Number of Columns | 8 |
+| Purpose | Stores inventory and stock-level information for each product at each branch. |
