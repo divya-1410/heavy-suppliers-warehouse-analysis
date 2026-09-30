@@ -47,3 +47,12 @@ For this analysis, the following six tables are being profiled:
 | Number of Rows | 500 |
 | Number of Columns | 15 |
 | Purpose | Stores customer information, including customer type, industry, location, credit details, purchase history, payment terms, and ratings. |
+
+### 2.3 Products
+
+| Attribute | Value |
+|---|---|
+| Table Name | `products` |
+| Number of Rows | 30 |
+| Number of Columns | 23 |
+| Purpose | Stores product master information, including product details, pricing, stock levels, lead times, warranty, and usage characteristics. |
