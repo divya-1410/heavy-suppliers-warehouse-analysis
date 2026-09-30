@@ -38,3 +38,12 @@ For this analysis, the following six tables are being profiled:
 | Number of Rows | 6 |
 | Number of Columns | 13 |
 | Purpose | Stores information about warehouse branches and their operational details. |
+
+### 2.2 Customers
+
+| Attribute | Value |
+|---|---|
+| Table Name | `customers` |
+| Number of Rows | 500 |
+| Number of Columns | 15 |
+| Purpose | Stores customer information, including customer type, industry, location, credit details, purchase history, payment terms, and ratings. |
