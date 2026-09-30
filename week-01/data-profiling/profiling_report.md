@@ -27,3 +27,14 @@ For this analysis, the following six tables are being profiled:
 4. `inventory_master`
 5. `invoices`
 6. `payments`
+   
+## 2. Table Structure
+
+### 2.1 Branch
+
+| Attribute | Value |
+|---|---|
+| Table Name | `branch` |
+| Number of Rows | 6 |
+| Number of Columns | 13 |
+| Purpose | Stores information about warehouse branches and their operational details. |
