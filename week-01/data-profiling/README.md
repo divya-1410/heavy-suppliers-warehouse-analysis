@@ -298,11 +298,28 @@ flagged for further investigation during data validation.
 The `payments` table contains 19,257 records and 19,055 unique
 `payment_id` values. Therefore, `payment_id` is not currently unique.
 
-Repeated `payment_id` values require further investigation to determine
-whether they represent valid payment records or data-quality issues.
+### Investigation of Repeated Payment IDs
 
-No payment records will be deleted until the repeated identifiers
-have been investigated.
+Repeated `payment_id` values were investigated by comparing the
+corresponding payment records.
+
+The investigation showed that repeated payment IDs can occur across
+different invoices, payment dates, payment amounts, and payment methods.
+
+For example, `PAY-361416` appears in multiple records with different
+`invoice_id`, `payment_date`, `payment_amount`, and `payment_method`
+values.
+
+Therefore, these records are not exact duplicate rows.
+
+### Cleaning Decision
+
+The records will not be deleted because they contain different
+payment information.
+
+However, `payment_id` cannot be considered a unique primary key in
+its current form. The repeated identifier will be retained and
+flagged for further investigation during data validation.
 
 ---
 
