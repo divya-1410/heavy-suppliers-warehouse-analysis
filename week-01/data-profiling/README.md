@@ -488,6 +488,22 @@ The difference between `current_stock` and `max_stock` is substantial. For examp
 Because the anomaly is present across all inventory records, it may indicate a difference in how `current_stock` is represented or generated rather than isolated data-entry errors.
 
 **Cleaning Decision:** No inventory values will be modified at this stage. The anomaly will be documented for further investigation before any correction is considered.
+
+### Inventory Value Distribution
+
+Descriptive statistics show that `current_stock` is on a substantially different scale from the other inventory quantity fields.
+
+- `opening_stock` ranges from 80 to 300.
+- `reorder_level` ranges from 24 to 119.
+- `safety_stock` ranges from 16 to 85.
+- `max_stock` ranges from 131 to 582.
+- `current_stock` ranges from 88,853 to 121,013.
+
+The mean `current_stock` is 107,240, compared with a mean `max_stock` of 322.
+
+This confirms that the `current_stock > max_stock` condition is systematic across the entire inventory table rather than an isolated outlier.
+
+**Cleaning Decision:** `current_stock` will not be modified or removed. The discrepancy will be retained as a documented data-quality issue and investigated further if the dataset's business rules or source documentation become available.
 ---
 
 ## 8. Data Quality Principles
