@@ -422,6 +422,32 @@ The following findings have been identified during initial profiling:
 These findings will be investigated further during data validation
 and cleaning.
 
+### Financial and Inventory Value Validation
+
+Financial and inventory fields were checked for zero or invalid
+negative values.
+
+No invalid values were identified in the tested fields.
+
+| Table | Field | Invalid Records |
+|---|---|---:|
+| `products` | `unit_cost <= 0` | 0 |
+| `products` | `unit_price <= 0` | 0 |
+| `products` | `last_purchase_price <= 0` | 0 |
+| `invoices` | `total_order_value <= 0` | 0 |
+| `invoices` | `total_gst_amount < 0` | 0 |
+| `invoices` | `grand_total <= 0` | 0 |
+| `payments` | `payment_amount <= 0` | 0 |
+| `inventory_master` | `opening_stock < 0` | 0 |
+| `inventory_master` | `current_stock < 0` | 0 |
+| `inventory_master` | `reorder_level < 0` | 0 |
+| `inventory_master` | `safety_stock < 0` | 0 |
+| `inventory_master` | `max_stock < 0` | 0 |
+
+### Observation
+
+No zero or negative values requiring immediate correction were
+identified in the tested financial and inventory fields.
 ---
 
 ## 8. Next Steps
