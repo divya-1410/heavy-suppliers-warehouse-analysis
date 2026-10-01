@@ -438,3 +438,31 @@ The next stages of the data preparation process are:
 8. Document all confirmed data-quality issues.
 9. Create cleaned datasets separately from the raw data.
 10. Validate the cleaned datasets before analysis.
+
+## 6.1 Foreign Key Validation
+
+Foreign-key relationships were validated by checking whether every
+referencing ID in the child tables exists in the corresponding parent
+table.
+
+All six tested relationships returned zero unmatched records.
+
+| Relationship | Unmatched Records | Result |
+|---|---:|---|
+| `customers.branch_id → branches.branch_id` | 0 | Valid |
+| `inventory_master.product_id → products.product_id` | 0 | Valid |
+| `inventory_master.branch_id → branches.branch_id` | 0 | Valid |
+| `invoices.customer_id → customers.customer_id` | 0 | Valid |
+| `invoices.branch_id → branches.branch_id` | 0 | Valid |
+| `payments.invoice_id → invoices.invoice_id` | 0 | Valid |
+
+### Observation
+
+No orphan foreign-key records were identified in the tested
+relationships.
+
+This indicates that the referenced IDs are present in their
+corresponding parent tables.
+
+Although `invoice_id` and `payment_id` contain repeated values,
+the tested foreign-key relationships remain referentially valid.
