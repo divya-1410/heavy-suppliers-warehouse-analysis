@@ -1,24 +1,22 @@
-## Finding 1: Missing Received Dates
+## Missing Value Handling
 
-**Table:** `purchase_orders_header`
+### `purchase_orders_header.received_date`
 
-**Column:** `received_date`
-
-**Total records:** 24,000
-
-**Missing values:** 2,370
-
-**Missing percentage:** 9.88%
+- Total records: 24,000
+- Missing values: 2,370
+- Missing percentage: 9.88%
+- Status of all missing records: `Cancelled`
 
 ### Observation
 
 All 2,370 records with a missing `received_date` have a
 `po_status` of `Cancelled`.
 
+This indicates structural missingness rather than a data-entry error.
+A cancelled purchase order was not received, so a received date is not applicable.
+
 ### Cleaning Decision
 
-The missing values will be retained because they represent
-structural missingness. A cancelled purchase order was not
-received, so a received date is not applicable.
+The missing values will be retained as NULL.
 
-No date imputation will be performed.
+No imputation or row deletion will be performed.
