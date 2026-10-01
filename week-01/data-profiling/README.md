@@ -458,6 +458,21 @@ No invalid values were identified in the tested fields.
 No zero or negative values requiring immediate correction were
 identified in the tested financial and inventory fields.
 
+### Invoice Financial Consistency
+
+The invoice grand total was validated using:
+
+`total_order_value + total_gst_amount = grand_total`
+
+Out of 18,033 invoices:
+- 16,670 records matched exactly.
+- 1,363 records had extremely small floating-point differences.
+- 0 records had a difference greater than ₹0.01.
+- The maximum difference was approximately ₹1.86 × 10⁻⁹.
+
+These differences are attributable to floating-point precision and do not represent meaningful financial inconsistencies.
+
+**Conclusion:** No invoice financial values require correction.
 ---
 
 ## 8. Data Quality Principles
