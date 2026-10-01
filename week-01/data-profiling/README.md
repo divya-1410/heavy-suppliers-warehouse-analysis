@@ -473,6 +473,21 @@ Out of 18,033 invoices:
 These differences are attributable to floating-point precision and do not represent meaningful financial inconsistencies.
 
 **Conclusion:** No invoice financial values require correction.
+
+### Inventory Stock Capacity Anomaly
+
+The inventory data was checked for consistency between stock quantities and the defined maximum stock capacity.
+
+Findings:
+- 180 out of 180 inventory records have `current_stock > max_stock`.
+- 0 records have `current_stock = 0`.
+- 0 records have `opening_stock > max_stock`.
+
+The difference between `current_stock` and `max_stock` is substantial. For example, one record has a `current_stock` of 121,013 compared with a `max_stock` of 383.
+
+Because the anomaly is present across all inventory records, it may indicate a difference in how `current_stock` is represented or generated rather than isolated data-entry errors.
+
+**Cleaning Decision:** No inventory values will be modified at this stage. The anomaly will be documented for further investigation before any correction is considered.
 ---
 
 ## 8. Data Quality Principles
