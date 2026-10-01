@@ -182,51 +182,6 @@ The combination of `product_id` and `branch_id` is unique and can serve as a com
 
 The table represents inventory for products across branches.
 
-### Cleaning Decision
-
-The missing values will be retained because they represent
-structural missingness.
-
-A cancelled purchase order was not received, so a received date is
-not applicable.
-
-No date imputation will be performed.
-
-## 4.1 Date Consistency Validation
-
-Date consistency checks were performed across customer, invoice,
-payment, and product date fields.
-
-| Check | Invalid Records | Result |
-|---|---:|---|
-| `customer.last_purchase < customer_since` | 0 | Valid |
-| `invoice.due_date < invoice_date` | 0 | Valid |
-| `payment_date < earliest invoice date` | 0 | Valid |
-| `product.last_purchase_date > current date` | 0 | Valid |
-
-### Payment Date Investigation
-
-An initial comparison identified 208 apparent cases where a payment
-date occurred before an invoice date.
-
-However, further investigation showed that `invoice_id` is not unique
-in the invoices table. Therefore, directly joining payments to invoice
-dates using only `invoice_id` could associate a payment with the wrong
-invoice record.
-
-The payment dates were therefore compared against the earliest invoice
-date associated with each `invoice_id`.
-
-No payments were found to occur before the earliest corresponding
-invoice date.
-
-### Cleaning Decision
-
-No payment dates require correction based on this validation.
-
-The initial 208 apparent inconsistencies are considered an artifact of
-the non-unique `invoice_id` relationship rather than confirmed date
-errors.
 ---
 
 ### 5. `invoices`
@@ -248,7 +203,7 @@ errors.
 | `payment_status` | Invoice payment status |
 
 **Key observation:**  
-`invoice_id` is not unique in the current dataset and therefore cannot be treated as a unique primary key without further investigation.
+`invoice_id` is not unique in the current dataset and therefore cannot be treated as a unique primary key.
 
 ---
 
@@ -266,7 +221,7 @@ errors.
 | `payment_method` | Payment method |
 
 **Key observation:**  
-`payment_id` is not unique in the current dataset and requires further investigation.
+`payment_id` is not unique in the current dataset.
 
 `invoice_id` can occur multiple times because an invoice may have multiple payment records.
 
@@ -282,8 +237,7 @@ errors.
 - Primary-key candidates were identified for most master tables.
 - `inventory_master` uses a composite key consisting of
   `product_id` and `branch_id`.
-- Repeated identifier values were observed in `invoices` and `payments`
-  and require further investigation.
+- Repeated identifier values were observed in `invoices` and `payments`.
 - Missing-value analysis identified a meaningful missing-data pattern
   in `purchase_orders_header.received_date`.
 - Raw data will be preserved and no records will be removed without
@@ -300,7 +254,7 @@ Duplicate complete rows and duplicate identifier values were checked separately.
 No complete duplicate rows were identified in the detailed profiling tables.
 
 However, duplicate identifier values were found in the `invoices` and
-`payments` tables and require further investigation before any cleaning action is taken.
+`payments` tables and were investigated further.
 
 | Table | Key Finding |
 |---|---|
@@ -334,9 +288,9 @@ Therefore, these records are not exact duplicate rows.
 The records will not be deleted because they contain different
 business information.
 
-However, `invoice_id` cannot be considered a unique primary key in
-its current form. The identifier duplication will be retained and
-flagged for further investigation during data validation.
+`invoice_id` cannot be considered a unique primary key in its current
+form. The repeated identifier will be retained and flagged as an
+identifier integrity issue.
 
 ### Payment ID
 
@@ -362,9 +316,9 @@ Therefore, these records are not exact duplicate rows.
 The records will not be deleted because they contain different
 payment information.
 
-However, `payment_id` cannot be considered a unique primary key in
-its current form. The repeated identifier will be retained and
-flagged for further investigation during data validation.
+`payment_id` cannot be considered a unique primary key in its current
+form. The repeated identifier will be retained and flagged as an
+identifier integrity issue.
 
 ---
 
@@ -409,65 +363,75 @@ No date imputation will be performed.
 
 ---
 
-## 5. Data Quality Principles
+## 5. Foreign Key Validation
 
-The following principles will be followed during the cleaning stage:
+Foreign-key relationships were validated by checking whether every
+referencing ID in the child tables exists in the corresponding parent
+table.
 
-1. Raw data will remain unchanged.
-2. Data quality issues will be identified before modification.
-3. Cleaning decisions will be documented.
-4. Values will not be deleted or replaced without a justified reason.
-5. Valid business records will not be removed simply because an
-   identifier is repeated.
-6. Structural missing values will not be artificially filled.
-7. Cleaned datasets will be maintained separately from the raw datasets.
-8. All major cleaning decisions will be documented for reproducibility.
+All six tested relationships returned zero unmatched records.
 
----
+| Relationship | Unmatched Records | Result |
+|---|---:|---|
+| `customers.branch_id → branches.branch_id` | 0 | Valid |
+| `inventory_master.product_id → products.product_id` | 0 | Valid |
+| `inventory_master.branch_id → branches.branch_id` | 0 | Valid |
+| `invoices.customer_id → customers.customer_id` | 0 | Valid |
+| `invoices.branch_id → branches.branch_id` | 0 | Valid |
+| `payments.invoice_id → invoices.invoice_id` | 0 | Valid |
 
-## 6. Preliminary Relationship Map
+### Observation
 
-The following relationships have been identified or proposed from the
-table structures and profiling results.
+No orphan foreign-key records were identified in the tested
+relationships.
 
-| Parent Table | Parent Key | Child Table | Child Key | Relationship |
-|---|---|---|---|---|
-| `branches` | `branch_id` | `customers` | `branch_id` | 1:N |
-| `branches` | `branch_id` | `inventory_master` | `branch_id` | 1:N |
-| `products` | `product_id` | `inventory_master` | `product_id` | 1:N |
-| `branches` | `branch_id` | `invoices` | `branch_id` | 1:N |
-| `customers` | `customer_id` | `invoices` | `customer_id` | 1:N |
-| `invoices` | `invoice_id` | `payments` | `invoice_id` | 1:N |
+This indicates that the referenced IDs are present in their
+corresponding parent tables.
 
-### Relationship Notes
-
-- `inventory_master` connects products and branches.
-- A product can exist across multiple branches.
-- A branch can store multiple products.
-- Customers are associated with branches.
-- Invoices are associated with customers and branches.
-- Payments are associated with invoices.
-- Because repeated `invoice_id` values were observed, the invoice-to-payment
-  relationship requires additional validation before treating
-  `invoice_id` as a unique parent key.
+Although `invoice_id` contains repeated values, the tested
+foreign-key relationship remains referentially valid.
 
 ---
 
-## 7. Preliminary Data Quality Findings
+## 6. Date Consistency Analysis
 
-The following findings have been identified during initial profiling:
+Date consistency checks were performed across customer, invoice,
+payment, and product date fields.
 
-| Issue | Table | Column | Status |
-|---|---|---|---|
-| Repeated identifier | `invoices` | `invoice_id` | Requires investigation |
-| Repeated identifier | `payments` | `payment_id` | Requires investigation |
-| Structural missing values | `purchase_orders_header` | `received_date` | Valid missingness |
-| Complete duplicate rows | Detailed tables | All | None identified |
+| Check | Invalid Records | Result |
+|---|---:|---|
+| `customer.last_purchase < customer_since` | 0 | Valid |
+| `invoice.due_date < invoice_date` | 0 | Valid |
+| `payment_date < earliest invoice date` | 0 | Valid |
+| `product.last_purchase_date > current date` | 0 | Valid |
 
-These findings will be investigated further during data validation
-and cleaning.
+### Payment Date Investigation
 
-### Financial and Inventory Value Validation
+An initial comparison identified 208 apparent cases where a payment
+date occurred before an invoice date.
+
+However, further investigation showed that `invoice_id` is not unique
+in the invoices table. Therefore, directly joining payments to invoice
+dates using only `invoice_id` could associate a payment with the wrong
+invoice record.
+
+The payment dates were therefore compared against the earliest invoice
+date associated with each `invoice_id`.
+
+No payments were found to occur before the earliest corresponding
+invoice date.
+
+### Cleaning Decision
+
+No payment dates require correction based on this validation.
+
+The initial 208 apparent inconsistencies are considered an artifact of
+the non-unique `invoice_id` relationship rather than confirmed date
+errors.
+
+---
+
+## 7. Financial and Inventory Value Validation
 
 Financial and inventory fields were checked for zero or invalid
 negative values.
@@ -493,47 +457,90 @@ No invalid values were identified in the tested fields.
 
 No zero or negative values requiring immediate correction were
 identified in the tested financial and inventory fields.
+
 ---
 
-## 8. Next Steps
+## 8. Data Quality Principles
+
+The following principles will be followed during the cleaning stage:
+
+1. Raw data will remain unchanged.
+2. Data quality issues will be identified before modification.
+3. Cleaning decisions will be documented.
+4. Values will not be deleted or replaced without a justified reason.
+5. Valid business records will not be removed simply because an
+   identifier is repeated.
+6. Structural missing values will not be artificially filled.
+7. Cleaned datasets will be maintained separately from the raw datasets.
+8. All major cleaning decisions will be documented for reproducibility.
+
+---
+
+## 9. Preliminary Relationship Map
+
+The following relationships were identified and validated during
+profiling.
+
+| Parent Table | Parent Key | Child Table | Child Key | Relationship |
+|---|---|---|---|---|
+| `branches` | `branch_id` | `customers` | `branch_id` | 1:N |
+| `branches` | `branch_id` | `inventory_master` | `branch_id` | 1:N |
+| `products` | `product_id` | `inventory_master` | `product_id` | 1:N |
+| `branches` | `branch_id` | `invoices` | `branch_id` | 1:N |
+| `customers` | `customer_id` | `invoices` | `customer_id` | 1:N |
+| `invoices` | `invoice_id` | `payments` | `invoice_id` | 1:N |
+
+### Relationship Notes
+
+- `inventory_master` connects products and branches.
+- A product can exist across multiple branches.
+- A branch can store multiple products.
+- Customers are associated with branches.
+- Invoices are associated with customers and branches.
+- Payments are associated with invoices.
+- Although `invoice_id` is repeated in the invoices table, all tested
+  payment `invoice_id` values matched existing invoice IDs.
+
+---
+
+## 10. Preliminary Data Quality Findings
+
+The following findings have been identified during initial profiling:
+
+| Issue | Table | Column | Status |
+|---|---|---|---|
+| Repeated identifier | `invoices` | `invoice_id` | Confirmed; records retained |
+| Repeated identifier | `payments` | `payment_id` | Confirmed; records retained |
+| Structural missing values | `purchase_orders_header` | `received_date` | Valid missingness |
+| Complete duplicate rows | Detailed tables | All | None identified |
+| Foreign-key integrity | Tested relationships | Various | No orphan records |
+| Date consistency | Tested date fields | Various | No confirmed date errors |
+| Negative/zero values | Tested financial/inventory fields | Various | No invalid values |
+
+### Overall Observation
+
+The initial profiling did not identify any confirmed records that
+should be deleted.
+
+The main data-quality consideration is the presence of repeated
+transaction identifiers in the `invoices` and `payments` tables.
+
+These records contain different business information and have therefore
+been retained for further data-model and identifier analysis.
+
+---
+
+## 11. Next Steps
 
 The next stages of the data preparation process are:
 
-1. Complete investigation of repeated `payment_id` values.
-2. Validate primary-key and foreign-key relationships.
-3. Check data types and date fields.
-4. Analyze categorical value distributions.
-5. Analyze numerical distributions and potential outliers.
-6. Check for invalid or inconsistent values.
-7. Investigate inventory and financial anomalies.
-8. Document all confirmed data-quality issues.
-9. Create cleaned datasets separately from the raw data.
-10. Validate the cleaned datasets before analysis.
-
-## 6.1 Foreign Key Validation
-
-Foreign-key relationships were validated by checking whether every
-referencing ID in the child tables exists in the corresponding parent
-table.
-
-All six tested relationships returned zero unmatched records.
-
-| Relationship | Unmatched Records | Result |
-|---|---:|---|
-| `customers.branch_id → branches.branch_id` | 0 | Valid |
-| `inventory_master.product_id → products.product_id` | 0 | Valid |
-| `inventory_master.branch_id → branches.branch_id` | 0 | Valid |
-| `invoices.customer_id → customers.customer_id` | 0 | Valid |
-| `invoices.branch_id → branches.branch_id` | 0 | Valid |
-| `payments.invoice_id → invoices.invoice_id` | 0 | Valid |
-
-### Observation
-
-No orphan foreign-key records were identified in the tested
-relationships.
-
-This indicates that the referenced IDs are present in their
-corresponding parent tables.
-
-Although `invoice_id` and `payment_id` contain repeated values,
-the tested foreign-key relationships remain referentially valid.
+1. Check data types and date fields across the remaining tables.
+2. Analyze categorical value distributions.
+3. Analyze numerical distributions and potential outliers.
+4. Investigate inventory-level anomalies.
+5. Validate invoice financial calculations.
+6. Check additional business-rule consistency.
+7. Document all confirmed data-quality issues.
+8. Create cleaned datasets separately from the raw datasets.
+9. Validate the cleaned datasets before analysis.
+10. Prepare the data for KPI development and business analysis.
