@@ -182,6 +182,51 @@ The combination of `product_id` and `branch_id` is unique and can serve as a com
 
 The table represents inventory for products across branches.
 
+### Cleaning Decision
+
+The missing values will be retained because they represent
+structural missingness.
+
+A cancelled purchase order was not received, so a received date is
+not applicable.
+
+No date imputation will be performed.
+
+## 4.1 Date Consistency Validation
+
+Date consistency checks were performed across customer, invoice,
+payment, and product date fields.
+
+| Check | Invalid Records | Result |
+|---|---:|---|
+| `customer.last_purchase < customer_since` | 0 | Valid |
+| `invoice.due_date < invoice_date` | 0 | Valid |
+| `payment_date < earliest invoice date` | 0 | Valid |
+| `product.last_purchase_date > current date` | 0 | Valid |
+
+### Payment Date Investigation
+
+An initial comparison identified 208 apparent cases where a payment
+date occurred before an invoice date.
+
+However, further investigation showed that `invoice_id` is not unique
+in the invoices table. Therefore, directly joining payments to invoice
+dates using only `invoice_id` could associate a payment with the wrong
+invoice record.
+
+The payment dates were therefore compared against the earliest invoice
+date associated with each `invoice_id`.
+
+No payments were found to occur before the earliest corresponding
+invoice date.
+
+### Cleaning Decision
+
+No payment dates require correction based on this validation.
+
+The initial 208 apparent inconsistencies are considered an artifact of
+the non-unique `invoice_id` relationship rather than confirmed date
+errors.
 ---
 
 ### 5. `invoices`
