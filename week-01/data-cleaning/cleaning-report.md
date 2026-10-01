@@ -1,13 +1,24 @@
-# Data Cleaning Report
+## Finding 1: Missing Received Dates
 
-## Objective
+**Table:** `purchase_orders_header`
 
-The objective of data cleaning is to identify and address data quality issues in the Heavy Suppliers Warehouse dataset while preserving the original raw data.
+**Column:** `received_date`
 
-## Cleaning Principles
+**Total records:** 24,000
 
-- Raw data will remain unchanged.
-- Data quality issues will be identified before modification.
-- Cleaning decisions will be documented.
-- Values will not be deleted or replaced without a justified reason.
-- Cleaned datasets will be maintained separately from the raw datasets.
+**Missing values:** 2,370
+
+**Missing percentage:** 9.88%
+
+### Observation
+
+All 2,370 records with a missing `received_date` have a
+`po_status` of `Cancelled`.
+
+### Cleaning Decision
+
+The missing values will be retained because they represent
+structural missingness. A cancelled purchase order was not
+received, so a received date is not applicable.
+
+No date imputation will be performed.
