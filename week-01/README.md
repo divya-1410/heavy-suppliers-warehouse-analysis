@@ -79,3 +79,9 @@ The cleaned versions of all 12 tables are available in the [`cleaned_data`](../c
 ## Next Steps
 
 The next phase will build on the cleaned and validated dataset for further analysis, KPI development, relationship analysis, and business insights.
+
+## Power BI Report
+
+The Power BI report for the Heavy Suppliers Warehouse analysis is available here:
+
+[View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjJkMGNmZTEtYjJiOS00N2E1LThmOGYtMmY1ZDc3ODU5MzVhIiwidCI6ImYzZmVjNjFkLTQzMDQtNGZkNC04YzRlLWJmM2VmZDBiNTNlYiJ9)
