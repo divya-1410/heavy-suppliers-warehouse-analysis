@@ -1,39 +1,34 @@
-# Week 02 — Data Integration and Feature Engineering
+# Week 02 — Data Integration, Feature Engineering & KPI Development
 
-## Objective
-Integrate the cleaned project datasets, create analytical features,
-validate the outputs, and document the work.
+## Sprint Goal
+Integrate the cleaned Week 1 datasets, create analytical features, validate the outputs, and document an initial KPI framework and dashboard.
 
-## Step 01 — Cleaned CSV Files
-Loaded and inspected the cleaned CSV tables from Week 01.
+## Team Deliverables
 
-## Step 02 — Identify Required Joins
-Reviewed common columns, join keys, and table relationships.
+### Data Integration and Feature Engineering — Member 2
+Prepared the following integrated datasets:
+- `data-integration/purchase_orders_integrated.csv`
+- `data-integration/sales_orders_integrated.csv`
+- `data-integration/stock_inventory_integrated.csv`
 
-## Step 03 — Data Integration
-Integrated purchase, sales, and stock/inventory tables using
-appropriate join keys.
+The integration combines related purchase, sales, supplier, customer, product, branch, inventory and stock-ledger data. See the integration and feature-engineering reports for join strategy and documented features.
 
-## Step 04 — Create Integrated Datasets
-Created the following analytical datasets:
-- purchase_orders_integrated.csv
-- sales_orders_integrated.csv
-- stock_inventory_integrated.csv
+### Data Dictionary, KPI Development and Dashboard — Member 3
+- `documentation/CadetX_Week_2_Analytics_Documentation.docx`
+- `notebooks/Cadetx_Week_2_Project_KPIs_Validation.ipynb`
+- [Open the Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiN2I4YTQ1NzYtOWVkNi00ZTMyLWFjMGUtNTE0MmQ2YmU2MTYxIiwidCI6ImYzZmVjNjFkLTQzMDQtNGZkNC04YzRlLWJmM2VmZDBiNTNlYiJ9)
 
-## Step 05 — Feature Engineering
-Created purchase and sales features. Stock features are included
-only after confirming the stock balance calculation.
+The shared dashboard contains six pages covering the supply-chain overview, sales/product performance, procurement/supplier performance, branch/warehouse performance, inventory/stock health, and customer performance.
 
-## Step 06 — Validation
-Checked dataset dimensions, duplicate rows, missing key values,
-feature missing values, and unmatched joins.
+## Data Quality Decisions
+- 15,418 missing `received_date` values in the purchase dataset were checked; all correspond to Cancelled POs and are labelled `Not Received`. Keep these dates missing and do not classify these cancelled POs as `Late`.
+- Use distinct `po_id` and `so_id` counts for purchase-order and sales-order metrics because integrated tables are line-level.
+- `current_stock` may repeat across product-branch movement rows. Do not sum it directly; aggregate at the product-branch snapshot level.
+- Stock-status conclusions require confirmation of source thresholds and units. The dashboard's all-overstocked display should be treated as a validation item, not an established business conclusion.
 
-## Step 07 — Documentation
-Prepared integration, feature engineering, and validation reports.
+## Validation Caveats
+The analytics documentation reports that selected Python KPI values correspond to Power BI. However, the documented `Units Purchased` value equals Procurement Spend, so that measure should be confirmed before being treated as validated. Inventory status and snapshot measures also require careful grain and threshold checks.
 
-## Folder Contents
-- data-integration/
-- feature-engineering/
-- validation/
-- datasets/
-week 2 readme by member 2
+## Sprint Notes
+See [`Sprint_Notes.docx`](Sprint_Notes.docx) for team responsibilities, integration and feature work, data-quality decisions, KPI/dashboard documentation, limitations, and submission checklist.
+
