@@ -1,0 +1,13 @@
+﻿file_name,total_rows,duplicate_full_rows
+branches.csv,6,0
+inventory_master.csv,180,0
+customers.csv,500,0
+products.csv,30,0
+payments.csv,19257,0
+invoices.csv,18033,0
+suppliers.csv,8,0
+sales_orders_header.csv,20000,0
+purchase_orders_header.csv,24000,0
+sales_orders_lines.csv,130402,0
+purchase_orders_lines.csv,155495,0
+stock_ledger.csv,237230,0
