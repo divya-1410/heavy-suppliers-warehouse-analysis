@@ -86,7 +86,13 @@ that every possible data quality issue has been ruled out.
    changes in sales performance.
 5. Continue validating sales calculations and product master relationships.
 
-## 8. Conclusion
+### Revenue Figure Reconciliation Note
+
+The Week 4 product-performance report and Part 2 delivered-sales output contain different revenue totals for P014 and P015. The report lists P014 at 3,760,422,500 and P015 at 5,381,418,000, while the delivered-sales output lists P014 at 3,302,258,000 and P015 at 4,729,298,000.
+
+The two analyses also cover different record counts: 130,402 sales records and 20,000 unique orders in the report, compared with 126,994 rows and 19,475 unique orders in the Part 2 dataset. The exact cause of the revenue differences has not yet been established. The figures are therefore retained as reported in their respective outputs and should not be directly compared until dataset scope and calculation definitions are verified.
+
+### Conclusion
 
 The analysis identified differences in product, branch, and category
 performance. The tested revenue calculations and selected data quality
