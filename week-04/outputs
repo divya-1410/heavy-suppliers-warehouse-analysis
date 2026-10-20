@@ -1,0 +1,90 @@
+# Week 4 : Product Performance Analysis
+
+## 1. Objective
+Analyse product sales contribution, relative movement, and unusual
+sales-value patterns using the integrated sales dataset.
+
+## 2. Data scope
+- Source: sales_orders_integrated_03.csv
+- Products analysed: 30
+- Delivered rows used in the product summary: 114,543
+- Distinct delivered orders: 17,557
+- Analysis period: 2019-01-01 to
+  2024-12-31
+- Cancelled records were excluded from the primary analysis.
+- Product movement counts distinct sales orders, not line items.
+- One missing line_sales_value was excluded from sales calculations.
+- Currency has not been assumed from the column name.
+
+## 3. Product performance
+Products were ranked by total delivered sales value across the available
+history. The summary includes delivered quantity, sales value, sales share,
+distinct delivered orders, active sales days, and sale dates.
+
+Total delivered sales value: 22,347,621,930.00
+
+## 4. ABC / Pareto classification
+Products were ranked by lifetime delivered sales value.
+- Class A targets approximately the first 80% of sales value.
+- Class B targets the next portion up to approximately 95%.
+- Class C contains the remaining products.
+- Product boundaries mean actual class percentages may differ from targets.
+
+           product_count   sales_value  sales_share_pct
+abc_class                                              
+A                     10  1.821448e+10        81.505239
+B                      7  3.147936e+09        14.086223
+C                     13  9.852034e+08         4.408538
+
+## 5. Product movement — 2024
+Movement was measured using distinct delivered orders per product in 2024.
+Relative quartile thresholds were used:
+- Slow-moving: order count at or below Q1 (537.00).
+- Fast-moving: order count at or above Q3 (567.00).
+- Middle range: values between these thresholds.
+
+                        product_count  min_orders  max_orders
+movement_class                                               
+Middle range                       13         538         564
+Relatively fast-moving              8         568         595
+Relatively slow-moving              9         499         537
+
+These labels are relative to this dataset. They do not establish inventory
+turnover, stockout risk, or overstocking.
+
+## 6. Unusual sales activity
+An interquartile range (IQR) screening rule was applied to lifetime delivered
+sales value.
+
+- Q1: 57,256,150.00
+- Q3: 956,876,100.00
+- IQR: 899,619,950.00
+- Lower fence: -1,292,173,775.00
+- Upper fence: 2,306,306,025.00
+
+Flagged products:
+product_id  delivered_sales_value                activity_flag
+      P015           4729298000.0 Unusually high — investigate
+      P014           3302258000.0 Unusually high — investigate
+
+A statistical flag is not proof of an error. Check unit prices, quantities,
+product master details, and business context.
+
+## 7. Limitations
+- Product IDs are used; product names require a verified product-master join.
+- Lifetime sales value can be affected by both price and quantity.
+- IQR screening on raw sales values can be affected by skewed distributions.
+- Relative order frequency is not the same as inventory turnover.
+- Confirm the business meaning and currency of line_sales_value before
+  making financial claims.
+- Results reflect the uploaded dataset and should be validated before
+  operational decisions.
+
+## 8. Generated outputs
+- product_performance_summary.csv
+- abc_pareto_classification.csv
+- product_movement_2024.csv
+- sales_value_outlier_screening.csv
+- abc_pareto_chart.png
+- product_movement_2024_chart.png
+- week4_part2_analysis_report.md
