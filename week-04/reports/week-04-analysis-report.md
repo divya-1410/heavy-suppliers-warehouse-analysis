@@ -86,12 +86,6 @@ that every possible data quality issue has been ruled out.
    changes in sales performance.
 5. Continue validating sales calculations and product master relationships.
 
-### Revenue Figure Reconciliation Note
-
-The Week 4 product-performance report and Part 2 delivered-sales output contain different revenue totals for P014 and P015. The report lists P014 at 3,760,422,500 and P015 at 5,381,418,000, while the delivered-sales output lists P014 at 3,302,258,000 and P015 at 4,729,298,000.
-
-The two analyses also cover different record counts: 130,402 sales records and 20,000 unique orders in the report, compared with 126,994 rows and 19,475 unique orders in the Part 2 dataset. The exact cause of the revenue differences has not yet been established. The figures are therefore retained as reported in their respective outputs and should not be directly compared until dataset scope and calculation definitions are verified.
-
 ### Conclusion
 
 The analysis identified differences in product, branch, and category
@@ -99,3 +93,16 @@ performance. The tested revenue calculations and selected data quality
 checks passed without mismatches. These findings can support further
 inventory and sales planning, while business decisions should also
 consider cost, margin, stock levels, and operational requirements.
+
+## Revenue Figure Reconciliation Note
+
+The Week 4 product-performance report and Part 2 delivered-sales output contain different revenue totals for P014 and P015.
+
+| Product | Week 4 report revenue | Part 2 delivered sales value |
+|---|---:|---:|
+| P014 — Transmission Assembly TA-800 | 3,760,422,500 | 3,302,258,000 |
+| P015 — Engine Block EB-600 | 5,381,418,000 | 4,729,298,000 |
+
+The analyses also contain different record counts: the report covers 130,402 sales records and 20,000 unique orders, while the Part 2 dataset contains 126,994 rows and 19,475 unique orders.
+
+The exact cause of these differences has not been verified because the original analysis code is unavailable. The figures have been retained as reported in their respective outputs and should not be directly compared until the dataset scope and calculation definitions are confirmed.
