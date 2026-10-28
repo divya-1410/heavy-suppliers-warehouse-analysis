@@ -1,0 +1,7 @@
+Validation Check,Result,Status
+Product-branch pairs,180.0,Passed
+Duplicate product-branch pairs,0.0,Passed
+Pairs exceeding max_stock,180.0,Source Data Review
+Current stock vs latest balance mismatches,14.0,Source Data Review
+Potentially inactive pairs (>90 days),0.0,Dataset-Date Limitation
+Provisional inventory value,281292677410.0,Provisional - Verify Stock Quantities
