@@ -1,0 +1,31 @@
+product_id,product_name,dimensions_cm,uom,item_volume_m3
+P001,Hydraulic Pump HP-300,40x25x25,piece,0.025
+P002,Engine Oil Filter OF-90,10x8x8,piece,0.00064
+P003,Air Filter AF-120,18x12x12,piece,0.002592
+P004,Track Chain TC-45,180x40x35,set,0.252
+P005,Fuel Injector FI-220,20x12x12,piece,0.00288
+P006,Alternator ALT-500,30x20x20,piece,0.012
+P007,Hydraulic Hose HH-60,90x4x4,piece,0.00144
+P008,Bucket Tooth BT-10,12x6x4,piece,0.000288
+P009,Starter Motor SM-700,32x18x18,piece,0.010368
+P010,Turbocharger TB-900,40x25x25,piece,0.025
+P011,Hydraulic Cylinder HC-200,120x18x18,piece,0.03888
+P012,Brake Pad BP-40,20x12x10,set,0.0024
+P013,Seal Kit SK-15,15x10x6,set,0.0009
+P014,Transmission Assembly TA-800,190x60x55,set,0.627
+P015,Engine Block EB-600,160x70x65,piece,0.728
+P016,Radiator RD-250,90x40x20,piece,0.072
+P017,Fan Belt FB-30,80x3x3,piece,0.00072
+P018,Wheel Rim WR-24,70x25x25,piece,0.04375
+P019,Swing Motor SWM-350,55x25x25,piece,0.034375
+P020,Pivot Pin PP-12,18x6x6,piece,0.000648
+P021,Boom Cylinder BC-400,130x18x18,piece,0.04212
+P022,Control Valve CV-75,35x25x20,piece,0.0175
+P023,Idler Wheel IW-55,60x25x25,piece,0.0375
+P024,Track Roller TR-60,55x22x22,piece,0.02662
+P025,Cabin Glass CG-20,120x5x2,piece,0.0012
+P026,Grease Cartridge GC-5,25x6x6,cartridge,0.0009
+P027,O-Ring Set OR-50,8x8x4,set,0.000256
+P028,Light Assembly LA-18,22x16x14,piece,0.004928
+P029,Pressure Sensor PS-90,10x8x6,piece,0.00048
+P030,Fuel Pump FP-350,30x18x18,piece,0.00972
