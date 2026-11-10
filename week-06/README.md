@@ -101,7 +101,7 @@ The inventory master and stock ledger also show different balances for P001 at A
 
 The Week 06 operational analysis is supported by a Power BI dashboard containing warehouse movement and throughput visualisations.
 
-[View the Week 06 Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDYxNWQzODEtNGM1NC00NzEyLTgwNGUtMjU3ZTVjMmI4ZWQ4IiwidCI6ImYzZmVjNjFkLTQzMDQtNGZkNC04YzRlLWJmM2VmZDBiNTNlYiJ9)
+[View the Week 06 Power BI Dashboard]([https://app.powerbi.com/view?r=eyJrIjoiNDYxNWQzODEtNGM1NC00NzEyLTgwNGUtMjU3ZTVjMmI4ZWQ4IiwidCI6ImYzZmVjNjFkLTQzMDQtNGZkNC04YzRlLWJmM2VmZDBiNTNlYiJ9](https://app.powerbi.com/view?r=eyJrIjoiNDYxNWQzODEtNGM1NC00NzEyLTgwNGUtMjU3ZTVjMmI4ZWQ4IiwidCI6ImYzZmVjNjFkLTQzMDQtNGZkNC04YzRlLWJmM2VmZDBiNTNlYiJ9))
 
 ## 4. Scrum Master Responsibilities
 
