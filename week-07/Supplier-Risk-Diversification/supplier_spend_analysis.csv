@@ -1,0 +1,9 @@
+﻿rank,supplier_id,supplier_name,spend_in_crore,spend_share_percent
+1,SUP0005,Tianjin OEM Supplies,4025.6,12.9
+2,SUP0001,Shenzhen OEM Supplies,3943.92,12.64
+3,SUP0008,Hangzhou OEM Supplies,3924.61,12.58
+4,SUP0003,Shanghai Distributor Supplies,3918.88,12.56
+5,SUP0006,Qingdao Distributor Supplies,3911.11,12.53
+6,SUP0007,Suzhou Local Vendor Supplies,3904.56,12.51
+7,SUP0004,Ningbo Distributor Supplies,3802.5,12.19
+8,SUP0002,Guangzhou Local Vendor Supplies,3771.57,12.09
