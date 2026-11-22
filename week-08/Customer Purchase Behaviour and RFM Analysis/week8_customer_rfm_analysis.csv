@@ -1,0 +1,501 @@
+customer_id	Frequency	Monetary	Last_Purchase_Date	Recency	R_Score	F_Score	M_Score	RFM_Score	Customer_Segment	customer_type
+C0001	34	43201680	11/15/2024	47	3	2	3	323	Other Customers	Retail
+C0002	51	56261100	9/7/2024	116	1	5	5	155	At Risk - Low Recency	Fleet Owner
+C0003	38	35112260	10/30/2024	63	2	4	1	241	At Risk - Low Recency	Government
+C0004	46	47754210	12/31/2024	1	5	5	4	554	Champions	Fleet Owner
+C0005	45	58882280	10/4/2024	89	2	5	5	255	At Risk - Low Recency	Dealer
+C0006	40	51412280	9/2/2024	121	1	4	4	144	At Risk - Low Recency	Government
+C0007	31	28648240	11/3/2024	59	3	1	1	311	Other Customers	Corporate
+C0008	34	37972100	7/16/2024	169	1	2	2	122	Hibernating Customers	Corporate
+C0009	34	54041610	11/4/2024	58	3	2	4	324	Other Customers	Corporate
+C0010	46	49509380	11/27/2024	35	4	5	4	454	Champions	Dealer
+C0011	41	44933810	11/22/2024	40	3	4	3	343	Loyal Customers	Retail
+C0012	37	41835630	10/10/2024	83	2	3	2	232	At Risk - Low Recency	Fleet Owner
+C0013	44	60328180	10/27/2024	66	2	5	5	255	At Risk - Low Recency	Dealer
+C0014	27	32598320	12/21/2024	11	5	1	1	511	Recent Customers	Fleet Owner
+C0015	34	47922560	11/16/2024	46	3	2	4	324	Other Customers	Government
+C0016	35	55572340	12/18/2024	14	5	3	5	535	Potential Loyalists	Government
+C0017	39	46409400	12/21/2024	11	5	4	3	543	Loyal Customers	Government
+C0018	31	38692710	11/14/2024	48	3	1	2	312	Other Customers	Retail
+C0019	37	33389880	12/10/2024	22	4	3	1	431	Potential Loyalists	Government
+C0020	37	33443220	10/17/2024	76	2	3	1	231	At Risk - Low Recency	Dealer
+C0021	45	47093630	10/1/2024	92	2	5	3	253	At Risk - Low Recency	Corporate
+C0022	38	44575550	11/6/2024	56	3	4	3	343	Loyal Customers	Retail
+C0023	32	45671740	12/27/2024	5	5	2	3	523	Potential Loyalists	Corporate
+C0024	44	47587690	9/17/2024	106	1	5	4	154	At Risk - Low Recency	Dealer
+C0025	38	55220350	8/18/2024	136	1	4	5	145	At Risk - Low Recency	Corporate
+C0026	36	47482150	12/29/2024	3	5	3	3	533	Potential Loyalists	Fleet Owner
+C0027	39	42577230	12/26/2024	6	5	4	2	542	Loyal Customers	Fleet Owner
+C0028	29	30031300	11/13/2024	49	3	1	1	311	Other Customers	Retail
+C0029	38	45653420	6/30/2024	185	1	4	3	143	At Risk - Low Recency	Dealer
+C0030	32	45703710	9/2/2024	121	1	2	3	123	Hibernating Customers	Corporate
+C0031	34	39680260	8/13/2024	141	1	2	2	122	Hibernating Customers	Government
+C0032	44	56493850	10/25/2024	68	2	5	5	255	At Risk - Low Recency	Government
+C0033	30	38713690	12/12/2024	20	4	1	2	412	Recent Customers	Government
+C0034	32	33363540	10/6/2024	87	2	2	1	221	Hibernating Customers	Government
+C0035	38	41878010	11/12/2024	50	3	4	2	342	Loyal Customers	Dealer
+C0036	31	38418260	12/18/2024	14	5	1	2	512	Recent Customers	Fleet Owner
+C0037	36	35689100	10/25/2024	68	2	3	1	231	At Risk - Low Recency	Corporate
+C0038	36	45410090	11/29/2024	33	4	3	3	433	Potential Loyalists	Fleet Owner
+C0039	38	49221640	11/28/2024	34	4	4	4	444	Champions	Fleet Owner
+C0040	43	42259970	12/21/2024	11	5	5	2	552	Loyal Customers	Government
+C0041	38	53358620	6/11/2024	204	1	4	4	144	At Risk - Low Recency	Government
+C0042	41	57941340	10/13/2024	80	2	4	5	245	At Risk - Low Recency	Fleet Owner
+C0043	36	37467660	6/14/2024	201	1	3	2	132	At Risk - Low Recency	Corporate
+C0044	34	38929350	11/17/2024	45	3	2	2	322	Other Customers	Government
+C0045	42	59085670	12/15/2024	17	5	5	5	555	Champions	Corporate
+C0046	46	68236200	12/9/2024	23	4	5	5	455	Champions	Retail
+C0047	30	45416100	8/25/2024	129	1	1	3	113	Hibernating Customers	Corporate
+C0048	31	38811940	9/12/2024	111	1	1	2	112	Hibernating Customers	Dealer
+C0049	39	64589840	12/25/2024	7	5	4	5	545	Champions	Dealer
+C0050	27	44016360	12/14/2024	18	4	1	3	413	Recent Customers	Dealer
+C0051	36	46593280	11/15/2024	47	3	3	3	333	Other Customers	Retail
+C0052	35	44420040	12/11/2024	21	4	3	3	433	Potential Loyalists	Government
+C0053	27	35369930	9/18/2024	105	1	1	1	111	Hibernating Customers	Fleet Owner
+C0054	37	49743760	12/14/2024	18	4	3	4	434	Potential Loyalists	Fleet Owner
+C0055	32	46311140	12/11/2024	21	4	2	3	423	Potential Loyalists	Dealer
+C0056	36	47730860	11/10/2024	52	3	3	4	334	Other Customers	Dealer
+C0057	32	39001020	12/4/2024	28	4	2	2	422	Potential Loyalists	Retail
+C0058	40	44606750	12/24/2024	8	5	4	3	543	Loyal Customers	Retail
+C0059	32	44636580	12/20/2024	12	5	2	3	523	Potential Loyalists	Retail
+C0060	44	60575030	11/24/2024	38	3	5	5	355	Loyal Customers	Dealer
+C0061	29	26564250	9/8/2024	115	1	1	1	111	Hibernating Customers	Dealer
+C0062	36	61918150	10/31/2024	62	2	3	5	235	At Risk - Low Recency	Dealer
+C0063	38	56519080	12/19/2024	13	5	4	5	545	Champions	Retail
+C0064	32	45390350	10/18/2024	75	2	2	3	223	Hibernating Customers	Corporate
+C0065	36	46865770	12/12/2024	20	4	3	3	433	Potential Loyalists	Corporate
+C0066	32	42371560	10/11/2024	82	2	2	2	222	Hibernating Customers	Retail
+C0067	31	43570420	12/30/2024	2	5	1	3	513	Recent Customers	Retail
+C0068	39	45062980	12/6/2024	26	4	4	3	443	Loyal Customers	Retail
+C0069	47	60517360	12/11/2024	21	4	5	5	455	Champions	Dealer
+C0070	41	60254230	12/20/2024	12	5	4	5	545	Champions	Government
+C0071	42	56572600	11/26/2024	36	4	5	5	455	Champions	Corporate
+C0072	26	43449850	12/23/2024	9	5	1	3	513	Recent Customers	Government
+C0073	32	44726770	11/12/2024	50	3	2	3	323	Other Customers	Corporate
+C0074	39	39627770	12/31/2024	1	5	4	2	542	Loyal Customers	Fleet Owner
+C0075	33	39435130	10/20/2024	73	2	2	2	222	Hibernating Customers	Retail
+C0076	45	62759940	10/6/2024	87	2	5	5	255	At Risk - Low Recency	Government
+C0077	34	45390570	12/16/2024	16	5	2	3	523	Potential Loyalists	Corporate
+C0078	31	33430220	6/22/2024	193	1	1	1	111	Hibernating Customers	Dealer
+C0079	31	36993090	11/28/2024	34	4	1	1	411	Recent Customers	Retail
+C0080	42	44386690	11/3/2024	59	3	5	3	353	Loyal Customers	Retail
+C0081	37	44271750	12/23/2024	9	5	3	3	533	Potential Loyalists	Corporate
+C0082	46	60929520	12/18/2024	14	5	5	5	555	Champions	Fleet Owner
+C0083	45	70378740	10/4/2024	89	2	5	5	255	At Risk - Low Recency	Dealer
+C0084	39	57484480	9/22/2024	101	1	4	5	145	At Risk - Low Recency	Corporate
+C0085	37	47385290	9/20/2024	103	1	3	3	133	At Risk - Low Recency	Retail
+C0086	29	46746570	11/22/2024	40	3	1	3	313	Other Customers	Retail
+C0087	39	39608130	12/17/2024	15	5	4	2	542	Loyal Customers	Government
+C0088	36	44991010	8/6/2024	148	1	3	3	133	At Risk - Low Recency	Corporate
+C0089	37	37054300	11/14/2024	48	3	3	2	332	Other Customers	Corporate
+C0090	43	40810370	10/22/2024	71	2	5	2	252	At Risk - Low Recency	Government
+C0091	30	30689510	9/7/2024	116	1	1	1	111	Hibernating Customers	Retail
+C0092	36	36740510	7/30/2024	155	1	3	1	131	At Risk - Low Recency	Fleet Owner
+C0093	36	45460060	12/1/2024	31	4	3	3	433	Potential Loyalists	Dealer
+C0094	31	36407440	9/20/2024	103	1	1	1	111	Hibernating Customers	Corporate
+C0095	29	43640740	12/26/2024	6	5	1	3	513	Recent Customers	Fleet Owner
+C0096	34	40828880	12/30/2024	2	5	2	2	522	Potential Loyalists	Corporate
+C0097	26	37217840	12/16/2024	16	5	1	2	512	Recent Customers	Corporate
+C0098	35	44013350	12/18/2024	14	5	3	3	533	Potential Loyalists	Corporate
+C0099	44	44372200	12/26/2024	6	5	5	3	553	Loyal Customers	Fleet Owner
+C0100	38	38016250	9/10/2024	113	1	4	2	142	At Risk - Low Recency	Government
+C0101	38	49185770	10/10/2024	83	2	4	4	244	At Risk - Low Recency	Corporate
+C0102	34	56370590	10/24/2024	69	2	2	5	225	Hibernating Customers	Government
+C0103	40	59164240	8/29/2024	125	1	4	5	145	At Risk - Low Recency	Dealer
+C0104	34	33092730	12/30/2024	2	5	2	1	521	Potential Loyalists	Fleet Owner
+C0105	41	44966360	11/26/2024	36	4	4	3	443	Loyal Customers	Government
+C0106	39	45839560	11/12/2024	50	3	4	3	343	Loyal Customers	Dealer
+C0107	49	66825070	12/11/2024	21	4	5	5	455	Champions	Fleet Owner
+C0108	24	24485250	12/29/2024	3	5	1	1	511	Recent Customers	Corporate
+C0109	44	54539050	12/9/2024	23	4	5	5	455	Champions	Retail
+C0110	42	71230450	6/21/2024	194	1	5	5	155	At Risk - Low Recency	Dealer
+C0111	33	43914790	12/16/2024	16	5	2	3	523	Potential Loyalists	Corporate
+C0112	33	36333120	12/1/2024	31	4	2	1	421	Potential Loyalists	Fleet Owner
+C0113	41	61701750	12/23/2024	9	5	4	5	545	Champions	Corporate
+C0114	33	38178710	9/27/2024	96	2	2	2	222	Hibernating Customers	Retail
+C0115	29	34787020	11/28/2024	34	4	1	1	411	Recent Customers	Fleet Owner
+C0116	35	50227070	7/28/2024	157	1	3	4	134	At Risk - Low Recency	Dealer
+C0117	31	30628680	8/12/2024	142	1	1	1	111	Hibernating Customers	Government
+C0118	32	32892640	12/10/2024	22	4	2	1	421	Potential Loyalists	Retail
+C0119	51	52748640	10/26/2024	67	2	5	4	254	At Risk - Low Recency	Government
+C0120	34	39523350	11/15/2024	47	3	2	2	322	Other Customers	Fleet Owner
+C0121	34	36904340	12/1/2024	31	4	2	1	421	Potential Loyalists	Government
+C0122	31	37712330	11/5/2024	57	3	1	2	312	Other Customers	Dealer
+C0123	36	54900300	11/4/2024	58	3	3	5	335	Other Customers	Corporate
+C0124	42	43084310	11/4/2024	58	3	5	3	353	Loyal Customers	Dealer
+C0125	30	25077820	12/9/2024	23	4	1	1	411	Recent Customers	Government
+C0126	33	50213860	4/5/2024	271	1	2	4	124	Hibernating Customers	Dealer
+C0127	28	38456060	6/25/2024	190	1	1	2	112	Hibernating Customers	Government
+C0128	33	54226840	12/18/2024	14	5	2	4	524	Potential Loyalists	Retail
+C0129	36	59941820	10/31/2024	62	2	3	5	235	At Risk - Low Recency	Corporate
+C0130	39	47103710	11/16/2024	46	3	4	3	343	Loyal Customers	Government
+C0131	32	46237660	6/14/2024	201	1	2	3	123	Hibernating Customers	Corporate
+C0132	37	38534330	10/1/2024	92	2	3	2	232	At Risk - Low Recency	Corporate
+C0133	29	40181100	4/7/2024	269	1	1	2	112	Hibernating Customers	Government
+C0134	48	66943890	11/24/2024	38	3	5	5	355	Loyal Customers	Fleet Owner
+C0135	35	49182970	8/27/2024	127	1	3	4	134	At Risk - Low Recency	Retail
+C0136	37	35915090	11/13/2024	49	3	3	1	331	Other Customers	Dealer
+C0137	21	33571570	6/10/2024	205	1	1	1	111	Hibernating Customers	Dealer
+C0138	34	49111730	12/25/2024	7	5	2	4	524	Potential Loyalists	Corporate
+C0139	29	29295750	10/31/2024	62	2	1	1	211	Hibernating Customers	Government
+C0140	37	47230520	11/24/2024	38	3	3	3	333	Other Customers	Retail
+C0141	36	51926540	11/15/2024	47	3	3	4	334	Other Customers	Corporate
+C0142	45	66580100	12/8/2024	24	4	5	5	455	Champions	Retail
+C0143	27	35058490	8/2/2024	152	1	1	1	111	Hibernating Customers	Corporate
+C0144	25	31072090	8/23/2024	131	1	1	1	111	Hibernating Customers	Fleet Owner
+C0145	33	27079080	12/29/2024	3	5	2	1	521	Potential Loyalists	Retail
+C0146	30	48058590	12/31/2024	1	5	1	4	514	Recent Customers	Retail
+C0147	30	34566290	12/22/2024	10	5	1	1	511	Recent Customers	Dealer
+C0148	35	43008380	12/9/2024	23	4	3	3	433	Potential Loyalists	Government
+C0149	38	51241680	12/12/2024	20	4	4	4	444	Champions	Government
+C0150	30	32673410	11/9/2024	53	3	1	1	311	Other Customers	Fleet Owner
+C0151	27	31051670	11/28/2024	34	4	1	1	411	Recent Customers	Government
+C0152	40	48907690	11/18/2024	44	3	4	4	344	Loyal Customers	Corporate
+C0153	56	84966970	12/12/2024	20	4	5	5	455	Champions	Retail
+C0154	45	58187170	8/21/2024	133	1	5	5	155	At Risk - Low Recency	Fleet Owner
+C0155	31	32588940	12/17/2024	15	5	2	1	521	Potential Loyalists	Fleet Owner
+C0156	33	52631480	9/17/2024	106	1	2	4	124	Hibernating Customers	Government
+C0157	34	43654580	12/30/2024	2	5	2	3	523	Potential Loyalists	Dealer
+C0158	36	46231390	9/26/2024	97	2	3	3	233	At Risk - Low Recency	Corporate
+C0159	34	39245590	12/26/2024	6	5	2	2	522	Potential Loyalists	Dealer
+C0160	44	55534390	11/23/2024	39	3	5	5	355	Loyal Customers	Retail
+C0161	37	47774340	11/17/2024	45	3	3	4	334	Other Customers	Dealer
+C0162	28	48770920	10/14/2024	79	2	1	4	214	Hibernating Customers	Retail
+C0163	38	36480350	8/5/2024	149	1	4	1	141	At Risk - Low Recency	Dealer
+C0164	36	35851210	11/13/2024	49	3	3	1	331	Other Customers	Government
+C0165	50	62168180	12/24/2024	8	5	5	5	555	Champions	Fleet Owner
+C0166	32	54482720	12/8/2024	24	4	2	5	425	Potential Loyalists	Fleet Owner
+C0167	31	39616580	12/28/2024	4	5	2	2	522	Potential Loyalists	Retail
+C0168	34	50309900	12/18/2024	14	5	2	4	524	Potential Loyalists	Dealer
+C0169	40	54509920	10/27/2024	66	2	4	5	245	At Risk - Low Recency	Fleet Owner
+C0170	27	30542780	12/20/2024	12	5	1	1	511	Recent Customers	Government
+C0171	30	43403890	10/19/2024	74	2	1	3	213	Hibernating Customers	Fleet Owner
+C0172	37	44967390	11/27/2024	35	4	4	3	443	Loyal Customers	Dealer
+C0173	31	45510430	10/18/2024	75	2	2	3	223	Hibernating Customers	Retail
+C0174	29	23386250	12/3/2024	29	4	1	1	411	Recent Customers	Government
+C0175	36	46583410	11/1/2024	61	2	3	3	233	At Risk - Low Recency	Fleet Owner
+C0176	42	52504460	8/7/2024	147	1	5	4	154	At Risk - Low Recency	Dealer
+C0177	28	28125780	12/25/2024	7	5	1	1	511	Recent Customers	Dealer
+C0178	54	70236970	12/9/2024	23	4	5	5	455	Champions	Dealer
+C0179	32	34009700	7/21/2024	164	1	2	1	121	Hibernating Customers	Government
+C0180	27	23677460	12/10/2024	22	4	1	1	411	Recent Customers	Fleet Owner
+C0181	36	41700450	12/15/2024	17	5	3	2	532	Potential Loyalists	Government
+C0182	29	32105700	8/3/2024	151	1	1	1	111	Hibernating Customers	Dealer
+C0183	27	25426200	12/5/2024	27	4	1	1	411	Recent Customers	Government
+C0184	29	48287230	11/28/2024	34	4	1	4	414	Recent Customers	Retail
+C0185	33	37319640	9/16/2024	107	1	2	2	122	Hibernating Customers	Dealer
+C0186	40	55408900	12/11/2024	21	4	4	5	445	Champions	Fleet Owner
+C0187	30	36769950	11/8/2024	54	3	1	1	311	Other Customers	Retail
+C0188	39	42691360	12/27/2024	5	5	4	2	542	Loyal Customers	Corporate
+C0189	35	47996060	11/11/2024	51	3	3	4	334	Other Customers	Government
+C0190	35	44179380	12/29/2024	3	5	3	3	533	Potential Loyalists	Retail
+C0191	29	51572860	12/12/2024	20	4	1	4	414	Recent Customers	Corporate
+C0192	40	54295880	8/29/2024	125	1	4	4	144	At Risk - Low Recency	Fleet Owner
+C0193	38	53179600	11/30/2024	32	4	4	4	444	Champions	Dealer
+C0194	33	37787710	12/26/2024	6	5	2	2	522	Potential Loyalists	Fleet Owner
+C0195	31	44526020	12/28/2024	4	5	2	3	523	Potential Loyalists	Fleet Owner
+C0196	48	55921870	10/28/2024	65	2	5	5	255	At Risk - Low Recency	Fleet Owner
+C0197	47	60798070	10/18/2024	75	2	5	5	255	At Risk - Low Recency	Government
+C0198	36	49819290	8/1/2024	153	1	3	4	134	At Risk - Low Recency	Government
+C0199	33	38456880	10/21/2024	72	2	2	2	222	Hibernating Customers	Government
+C0200	47	66268870	11/25/2024	37	4	5	5	455	Champions	Retail
+C0201	47	63133600	12/13/2024	19	4	5	5	455	Champions	Dealer
+C0202	28	39546540	9/21/2024	102	1	1	2	112	Hibernating Customers	Government
+C0203	35	42161670	11/19/2024	43	3	3	2	332	Other Customers	Government
+C0204	31	31359900	12/8/2024	24	4	2	1	421	Potential Loyalists	Retail
+C0205	33	40742250	11/15/2024	47	3	2	2	322	Other Customers	Retail
+C0206	40	70279540	12/11/2024	21	4	4	5	445	Champions	Retail
+C0207	45	68312200	10/13/2024	80	2	5	5	255	At Risk - Low Recency	Corporate
+C0208	30	36866060	12/30/2024	2	5	1	1	511	Recent Customers	Fleet Owner
+C0209	44	51373630	11/22/2024	40	3	5	4	354	Loyal Customers	Corporate
+C0210	30	41928210	11/26/2024	36	4	1	2	412	Recent Customers	Retail
+C0211	42	46705690	11/20/2024	42	3	5	3	353	Loyal Customers	Fleet Owner
+C0212	31	35519950	8/23/2024	131	1	2	1	121	Hibernating Customers	Retail
+C0213	30	51921070	8/31/2024	123	1	1	4	114	Hibernating Customers	Fleet Owner
+C0214	31	39709250	12/26/2024	6	5	2	2	522	Potential Loyalists	Corporate
+C0215	49	58120530	12/24/2024	8	5	5	5	555	Champions	Corporate
+C0216	39	48655520	11/20/2024	42	3	4	4	344	Loyal Customers	Government
+C0217	36	48179740	12/18/2024	14	5	3	4	534	Potential Loyalists	Corporate
+C0218	36	34801450	10/16/2024	77	2	3	1	231	At Risk - Low Recency	Fleet Owner
+C0219	39	47075000	12/21/2024	11	5	4	3	543	Loyal Customers	Government
+C0220	43	41988750	11/6/2024	56	3	5	2	352	Loyal Customers	Government
+C0221	44	64336800	9/5/2024	118	1	5	5	155	At Risk - Low Recency	Dealer
+C0222	41	44904020	12/13/2024	19	4	4	3	443	Loyal Customers	Fleet Owner
+C0223	33	42492870	10/15/2024	78	2	2	2	222	Hibernating Customers	Corporate
+C0224	36	42395680	10/31/2024	62	2	3	2	232	At Risk - Low Recency	Retail
+C0225	48	54324600	7/17/2024	168	1	5	5	155	At Risk - Low Recency	Fleet Owner
+C0226	26	36902950	9/28/2024	95	2	1	1	211	Hibernating Customers	Dealer
+C0227	34	45457070	10/24/2024	69	2	2	3	223	Hibernating Customers	Fleet Owner
+C0228	34	47933580	9/10/2024	113	1	3	4	134	At Risk - Low Recency	Government
+C0229	28	34806810	11/29/2024	33	4	1	1	411	Recent Customers	Government
+C0230	38	48757760	10/31/2024	62	2	4	4	244	At Risk - Low Recency	Dealer
+C0231	32	40582530	11/8/2024	54	3	2	2	322	Other Customers	Government
+C0232	37	45159600	12/29/2024	3	5	4	3	543	Loyal Customers	Government
+C0233	28	39173800	10/21/2024	72	2	1	2	212	Hibernating Customers	Government
+C0234	29	56717930	12/26/2024	6	5	1	5	515	Recent Customers	Corporate
+C0235	38	47454230	9/10/2024	113	1	4	3	143	At Risk - Low Recency	Fleet Owner
+C0236	41	45446800	10/25/2024	68	2	4	3	243	At Risk - Low Recency	Corporate
+C0237	44	58676380	10/15/2024	78	2	5	5	255	At Risk - Low Recency	Dealer
+C0238	30	28891440	3/25/2024	282	1	1	1	111	Hibernating Customers	Corporate
+C0239	32	35255050	10/27/2024	66	2	2	1	221	Hibernating Customers	Government
+C0240	46	72778580	11/10/2024	52	3	5	5	355	Loyal Customers	Corporate
+C0241	39	57604400	10/31/2024	62	2	4	5	245	At Risk - Low Recency	Government
+C0242	47	57416320	11/18/2024	44	3	5	5	355	Loyal Customers	Government
+C0243	28	33315370	12/10/2024	22	4	1	1	411	Recent Customers	Government
+C0244	44	60886580	12/9/2024	23	4	5	5	455	Champions	Government
+C0245	33	44342070	11/30/2024	32	4	2	3	423	Potential Loyalists	Dealer
+C0246	35	60399770	11/2/2024	60	2	3	5	235	At Risk - Low Recency	Retail
+C0247	39	53174220	11/13/2024	49	3	4	4	344	Loyal Customers	Corporate
+C0248	30	35510400	12/4/2024	28	4	1	1	411	Recent Customers	Fleet Owner
+C0249	35	49712310	9/3/2024	120	1	3	4	134	At Risk - Low Recency	Corporate
+C0250	43	58330380	12/20/2024	12	5	5	5	555	Champions	Government
+C0251	36	47504560	7/6/2024	179	1	3	3	133	At Risk - Low Recency	Dealer
+C0252	34	35584220	10/7/2024	86	2	3	1	231	At Risk - Low Recency	Retail
+C0253	39	57279120	11/27/2024	35	4	4	5	445	Champions	Retail
+C0254	48	70227620	9/25/2024	98	2	5	5	255	At Risk - Low Recency	Dealer
+C0255	45	55876690	11/11/2024	51	3	5	5	355	Loyal Customers	Retail
+C0256	30	46110780	9/19/2024	104	1	1	3	113	Hibernating Customers	Corporate
+C0257	43	59812600	12/23/2024	9	5	5	5	555	Champions	Corporate
+C0258	28	48830880	10/10/2024	83	2	1	4	214	Hibernating Customers	Corporate
+C0259	33	47259670	12/13/2024	19	4	2	3	423	Potential Loyalists	Fleet Owner
+C0260	32	43590270	9/5/2024	118	1	2	3	123	Hibernating Customers	Dealer
+C0261	33	49449470	12/6/2024	26	4	2	4	424	Potential Loyalists	Dealer
+C0262	26	28771050	12/4/2024	28	4	1	1	411	Recent Customers	Corporate
+C0263	35	48351480	11/1/2024	61	2	3	4	234	At Risk - Low Recency	Government
+C0264	36	52753710	11/2/2024	60	2	3	4	234	At Risk - Low Recency	Retail
+C0265	29	37594220	9/27/2024	96	2	1	2	212	Hibernating Customers	Retail
+C0266	35	39797800	9/24/2024	99	1	3	2	132	At Risk - Low Recency	Fleet Owner
+C0267	29	36465390	3/25/2024	282	1	1	1	111	Hibernating Customers	Fleet Owner
+C0268	32	49962270	10/7/2024	86	2	2	4	224	Hibernating Customers	Government
+C0269	41	48367030	11/22/2024	40	3	4	4	344	Loyal Customers	Government
+C0270	43	53374960	12/20/2024	12	5	5	4	554	Champions	Corporate
+C0271	24	29644660	11/26/2024	36	4	1	1	411	Recent Customers	Corporate
+C0272	39	59253070	12/13/2024	19	4	4	5	445	Champions	Government
+C0273	37	47764950	12/31/2024	1	5	4	4	544	Champions	Dealer
+C0274	39	42946740	6/27/2024	188	1	4	3	143	At Risk - Low Recency	Dealer
+C0275	45	50445750	11/6/2024	56	3	5	4	354	Loyal Customers	Fleet Owner
+C0276	44	52803770	12/29/2024	3	5	5	4	554	Champions	Dealer
+C0277	36	34361720	9/14/2024	109	1	3	1	131	At Risk - Low Recency	Dealer
+C0278	38	37042540	12/3/2024	29	4	4	2	442	Loyal Customers	Fleet Owner
+C0279	26	27795350	11/12/2024	50	3	1	1	311	Other Customers	Dealer
+C0280	42	46383310	11/5/2024	57	3	5	3	353	Loyal Customers	Corporate
+C0281	26	36333020	6/25/2024	190	1	1	1	111	Hibernating Customers	Government
+C0282	44	54475470	12/24/2024	8	5	5	5	555	Champions	Government
+C0283	31	34916310	9/4/2024	119	1	2	1	121	Hibernating Customers	Retail
+C0284	41	54612880	12/23/2024	9	5	4	5	545	Champions	Corporate
+C0285	47	42474460	12/5/2024	27	4	5	2	452	Loyal Customers	Government
+C0286	36	47333390	12/29/2024	3	5	3	3	533	Potential Loyalists	Dealer
+C0287	36	43261120	11/27/2024	35	4	3	3	433	Potential Loyalists	Dealer
+C0288	55	76291160	10/18/2024	75	2	5	5	255	At Risk - Low Recency	Dealer
+C0289	35	39396940	10/29/2024	64	2	3	2	232	At Risk - Low Recency	Corporate
+C0290	40	45014240	11/15/2024	47	3	4	3	343	Loyal Customers	Corporate
+C0291	46	61983900	12/3/2024	29	4	5	5	455	Champions	Retail
+C0292	27	24356960	4/28/2024	248	1	1	1	111	Hibernating Customers	Corporate
+C0293	36	52424230	9/25/2024	98	1	3	4	134	At Risk - Low Recency	Dealer
+C0294	45	62587650	12/27/2024	5	5	5	5	555	Champions	Government
+C0295	38	51330170	10/9/2024	84	2	4	4	244	At Risk - Low Recency	Corporate
+C0296	40	44706560	11/7/2024	55	3	4	3	343	Loyal Customers	Corporate
+C0297	34	57279920	7/1/2024	184	1	3	5	135	At Risk - Low Recency	Fleet Owner
+C0298	33	36725200	11/20/2024	42	3	2	1	321	Other Customers	Fleet Owner
+C0299	34	37822560	8/30/2024	124	1	3	2	132	At Risk - Low Recency	Retail
+C0300	40	57051500	11/18/2024	44	3	4	5	345	Loyal Customers	Dealer
+C0301	46	50074420	12/19/2024	13	5	5	4	554	Champions	Dealer
+C0302	36	49894150	12/24/2024	8	5	3	4	534	Potential Loyalists	Fleet Owner
+C0303	27	25492220	12/1/2024	31	4	1	1	411	Recent Customers	Corporate
+C0304	48	67903880	12/25/2024	7	5	5	5	555	Champions	Dealer
+C0305	31	37914410	11/27/2024	35	4	2	2	422	Potential Loyalists	Fleet Owner
+C0306	42	54784400	12/16/2024	16	5	5	5	555	Champions	Fleet Owner
+C0307	42	57776220	11/24/2024	38	3	5	5	355	Loyal Customers	Dealer
+C0308	33	39549470	12/12/2024	20	4	2	2	422	Potential Loyalists	Retail
+C0309	31	29869120	12/17/2024	15	5	2	1	521	Potential Loyalists	Government
+C0310	39	46376420	11/7/2024	55	3	4	3	343	Loyal Customers	Government
+C0311	41	54370990	9/17/2024	106	1	5	5	155	At Risk - Low Recency	Government
+C0312	37	51311620	11/17/2024	45	3	4	4	344	Loyal Customers	Government
+C0313	30	37841680	9/2/2024	121	1	1	2	112	Hibernating Customers	Corporate
+C0314	36	46037410	9/26/2024	97	2	3	3	233	At Risk - Low Recency	Retail
+C0315	40	48208830	12/17/2024	15	5	4	4	544	Champions	Dealer
+C0316	33	35655050	9/22/2024	101	1	2	1	121	Hibernating Customers	Dealer
+C0317	32	34026890	12/25/2024	7	5	2	1	521	Potential Loyalists	Corporate
+C0318	36	48754200	10/17/2024	76	2	3	4	234	At Risk - Low Recency	Corporate
+C0319	33	47364750	12/8/2024	24	4	2	3	423	Potential Loyalists	Dealer
+C0320	34	42001120	12/30/2024	2	5	3	2	532	Potential Loyalists	Retail
+C0321	38	42809230	6/28/2024	187	1	4	2	142	At Risk - Low Recency	Retail
+C0322	28	32200600	12/10/2024	22	4	1	1	411	Recent Customers	Government
+C0323	36	39487910	12/22/2024	10	5	3	2	532	Potential Loyalists	Government
+C0324	35	41098360	8/24/2024	130	1	3	2	132	At Risk - Low Recency	Corporate
+C0325	30	41524630	11/9/2024	53	3	1	2	312	Other Customers	Corporate
+C0326	42	51922180	12/30/2024	2	5	5	4	554	Champions	Government
+C0327	43	47883020	12/6/2024	26	4	5	4	454	Champions	Retail
+C0328	37	49201820	12/5/2024	27	4	4	4	444	Champions	Government
+C0329	36	50414010	12/26/2024	6	5	3	4	534	Potential Loyalists	Dealer
+C0330	38	42673670	8/10/2024	144	1	4	2	142	At Risk - Low Recency	Retail
+C0331	42	53327060	12/15/2024	17	5	5	4	554	Champions	Dealer
+C0332	35	35068830	11/11/2024	51	3	3	1	331	Other Customers	Corporate
+C0333	39	49686600	12/2/2024	30	4	4	4	444	Champions	Corporate
+C0334	33	29449120	8/24/2024	130	1	2	1	121	Hibernating Customers	Corporate
+C0335	38	47401100	11/3/2024	59	2	4	3	243	At Risk - Low Recency	Government
+C0336	33	30736480	9/26/2024	97	2	2	1	221	Hibernating Customers	Government
+C0337	34	57585510	8/25/2024	129	1	3	5	135	At Risk - Low Recency	Corporate
+C0338	33	40964750	11/23/2024	39	3	2	2	322	Other Customers	Corporate
+C0339	24	31557880	8/16/2024	138	1	1	1	111	Hibernating Customers	Fleet Owner
+C0340	35	49824870	12/4/2024	28	4	3	4	434	Potential Loyalists	Government
+C0341	36	52480080	10/7/2024	86	2	3	4	234	At Risk - Low Recency	Fleet Owner
+C0342	36	57066210	10/9/2024	84	2	3	5	235	At Risk - Low Recency	Dealer
+C0343	40	53611870	11/21/2024	41	3	4	4	344	Loyal Customers	Corporate
+C0344	28	37729300	6/17/2024	198	1	1	2	112	Hibernating Customers	Fleet Owner
+C0345	40	39617420	11/20/2024	42	3	4	2	342	Loyal Customers	Retail
+C0346	39	42873560	11/15/2024	47	3	4	2	342	Loyal Customers	Retail
+C0347	24	17721530	12/3/2024	29	4	1	1	411	Recent Customers	Retail
+C0348	34	39978280	10/24/2024	69	2	3	2	232	At Risk - Low Recency	Retail
+C0349	33	44485700	10/19/2024	74	2	2	3	223	Hibernating Customers	Corporate
+C0350	32	32353150	11/25/2024	37	3	2	1	321	Other Customers	Dealer
+C0351	34	35183170	9/12/2024	111	1	3	1	131	At Risk - Low Recency	Corporate
+C0352	30	31581590	11/11/2024	51	3	1	1	311	Other Customers	Corporate
+C0353	27	25154270	10/8/2024	85	2	1	1	211	Hibernating Customers	Dealer
+C0354	37	44585860	12/25/2024	7	5	4	3	543	Loyal Customers	Corporate
+C0355	32	46214030	12/18/2024	14	5	2	3	523	Potential Loyalists	Government
+C0356	45	62479450	12/5/2024	27	4	5	5	455	Champions	Dealer
+C0357	28	45252290	11/17/2024	45	3	1	3	313	Other Customers	Corporate
+C0358	36	46632120	10/1/2024	92	2	3	3	233	At Risk - Low Recency	Government
+C0359	46	67221300	11/28/2024	34	4	5	5	455	Champions	Fleet Owner
+C0360	31	42914200	11/17/2024	45	3	2	2	322	Other Customers	Dealer
+C0361	32	41202210	9/26/2024	97	2	2	2	222	Hibernating Customers	Government
+C0362	37	41935190	10/11/2024	82	2	4	2	242	At Risk - Low Recency	Corporate
+C0363	32	42048290	11/7/2024	55	3	2	2	322	Other Customers	Fleet Owner
+C0364	32	42733560	11/18/2024	44	3	2	2	322	Other Customers	Government
+C0365	39	47362240	9/15/2024	108	1	4	3	143	At Risk - Low Recency	Government
+C0366	26	34264010	10/26/2024	67	2	1	1	211	Hibernating Customers	Corporate
+C0367	27	45173860	11/4/2024	58	3	1	3	313	Other Customers	Fleet Owner
+C0368	31	40673710	11/1/2024	61	2	2	2	222	Hibernating Customers	Fleet Owner
+C0369	40	50690940	12/13/2024	19	4	4	4	444	Champions	Government
+C0370	36	42286970	12/18/2024	14	5	3	2	532	Potential Loyalists	Corporate
+C0371	47	64331600	11/2/2024	60	2	5	5	255	At Risk - Low Recency	Retail
+C0372	36	41513200	7/10/2024	175	1	3	2	132	At Risk - Low Recency	Government
+C0373	38	54767460	9/2/2024	121	1	4	5	145	At Risk - Low Recency	Corporate
+C0374	41	53669570	12/10/2024	22	4	5	4	454	Champions	Corporate
+C0375	42	63738420	11/3/2024	59	2	5	5	255	At Risk - Low Recency	Fleet Owner
+C0376	29	40903770	11/24/2024	38	3	1	2	312	Other Customers	Retail
+C0377	37	53755340	12/7/2024	25	4	4	4	444	Champions	Dealer
+C0378	35	39739040	11/16/2024	46	3	3	2	332	Other Customers	Retail
+C0379	41	50443570	12/15/2024	17	5	5	4	554	Champions	Retail
+C0380	50	61154260	11/3/2024	59	2	5	5	255	At Risk - Low Recency	Fleet Owner
+C0381	29	48585550	11/17/2024	45	3	1	4	314	Other Customers	Corporate
+C0382	33	33715150	11/19/2024	43	3	2	1	321	Other Customers	Retail
+C0383	41	53480050	11/19/2024	43	3	5	4	354	Loyal Customers	Fleet Owner
+C0384	39	56692240	9/9/2024	114	1	4	5	145	At Risk - Low Recency	Retail
+C0385	37	52865670	9/23/2024	100	1	4	4	144	At Risk - Low Recency	Corporate
+C0386	32	38385820	11/4/2024	58	3	2	2	322	Other Customers	Retail
+C0387	34	37034600	10/26/2024	67	2	3	1	231	At Risk - Low Recency	Dealer
+C0388	27	30890020	12/12/2024	20	4	1	1	411	Recent Customers	Fleet Owner
+C0389	30	38241650	11/25/2024	37	3	1	2	312	Other Customers	Retail
+C0390	32	50314950	11/9/2024	53	3	2	4	324	Other Customers	Fleet Owner
+C0391	33	36944480	11/30/2024	32	4	2	1	421	Potential Loyalists	Government
+C0392	31	30249660	12/12/2024	20	4	2	1	421	Potential Loyalists	Fleet Owner
+C0393	39	40195010	12/18/2024	14	5	4	2	542	Loyal Customers	Retail
+C0394	40	54868190	11/21/2024	41	3	4	5	345	Loyal Customers	Government
+C0395	44	50643860	12/20/2024	12	5	5	4	554	Champions	Corporate
+C0396	38	50680080	12/7/2024	25	4	4	4	444	Champions	Government
+C0397	36	44216230	11/22/2024	40	3	3	3	333	Other Customers	Fleet Owner
+C0398	35	45379170	12/2/2024	30	4	3	3	433	Potential Loyalists	Government
+C0399	39	46532600	12/25/2024	7	5	4	3	543	Loyal Customers	Fleet Owner
+C0400	35	40610020	10/23/2024	70	2	3	2	232	At Risk - Low Recency	Government
+C0401	36	45711960	10/25/2024	68	2	3	3	233	At Risk - Low Recency	Government
+C0402	35	34212640	7/12/2024	173	1	3	1	131	At Risk - Low Recency	Fleet Owner
+C0403	45	63236900	12/10/2024	22	4	5	5	455	Champions	Government
+C0404	31	36224330	12/26/2024	6	5	2	1	521	Potential Loyalists	Government
+C0405	32	39790100	6/25/2024	190	1	2	2	122	Hibernating Customers	Corporate
+C0406	32	50826330	10/11/2024	82	2	2	4	224	Hibernating Customers	Dealer
+C0407	38	42882880	12/25/2024	7	5	4	2	542	Loyal Customers	Dealer
+C0408	36	47201090	11/2/2024	60	2	3	3	233	At Risk - Low Recency	Government
+C0409	45	47755320	10/9/2024	84	2	5	4	254	At Risk - Low Recency	Government
+C0410	39	46906860	11/27/2024	35	4	4	3	443	Loyal Customers	Corporate
+C0411	43	56645350	12/12/2024	20	4	5	5	455	Champions	Corporate
+C0412	32	33987820	5/28/2024	218	1	2	1	121	Hibernating Customers	Corporate
+C0413	41	48986230	11/8/2024	54	3	5	4	354	Loyal Customers	Fleet Owner
+C0414	40	52044170	12/31/2024	1	5	4	4	544	Champions	Dealer
+C0415	33	53841670	10/11/2024	82	2	2	4	224	Hibernating Customers	Government
+C0416	37	36145900	10/20/2024	73	2	4	1	241	At Risk - Low Recency	Dealer
+C0417	32	40806780	9/11/2024	112	1	2	2	122	Hibernating Customers	Fleet Owner
+C0418	30	37023670	11/14/2024	48	3	1	1	311	Other Customers	Government
+C0419	31	48221790	9/30/2024	93	2	2	4	224	Hibernating Customers	Fleet Owner
+C0420	46	72545910	11/22/2024	40	3	5	5	355	Loyal Customers	Retail
+C0421	38	54492210	6/21/2024	194	1	4	5	145	At Risk - Low Recency	Retail
+C0422	37	51607190	11/4/2024	58	3	4	4	344	Loyal Customers	Government
+C0423	30	36819280	11/9/2024	53	3	1	1	311	Other Customers	Dealer
+C0424	35	45692330	9/23/2024	100	1	3	3	133	At Risk - Low Recency	Retail
+C0425	41	53232320	12/9/2024	23	4	5	4	454	Champions	Dealer
+C0426	35	44884200	12/3/2024	29	4	3	3	433	Potential Loyalists	Dealer
+C0427	41	41731940	11/26/2024	36	4	5	2	452	Loyal Customers	Corporate
+C0428	43	52052170	8/26/2024	128	1	5	4	154	At Risk - Low Recency	Retail
+C0429	42	54510440	10/21/2024	72	2	5	5	255	At Risk - Low Recency	Fleet Owner
+C0430	27	35197560	10/11/2024	82	2	1	1	211	Hibernating Customers	Retail
+C0431	28	35920190	7/5/2024	180	1	1	1	111	Hibernating Customers	Government
+C0432	37	38717560	10/4/2024	89	2	4	2	242	At Risk - Low Recency	Fleet Owner
+C0433	31	44764880	5/27/2024	219	1	2	3	123	Hibernating Customers	Dealer
+C0434	33	42768890	10/26/2024	67	2	2	2	222	Hibernating Customers	Corporate
+C0435	50	57957990	11/1/2024	61	2	5	5	255	At Risk - Low Recency	Dealer
+C0436	34	45357190	12/15/2024	17	4	3	3	433	Potential Loyalists	Fleet Owner
+C0437	30	36305140	12/21/2024	11	5	1	1	511	Recent Customers	Dealer
+C0438	39	48432400	9/1/2024	122	1	4	4	144	At Risk - Low Recency	Corporate
+C0439	36	37351400	12/22/2024	10	5	3	2	532	Potential Loyalists	Dealer
+C0440	44	64680520	10/21/2024	72	2	5	5	255	At Risk - Low Recency	Retail
+C0441	31	37017660	10/19/2024	74	2	2	1	221	Hibernating Customers	Dealer
+C0442	33	41966020	10/20/2024	73	2	2	2	222	Hibernating Customers	Dealer
+C0443	40	50982660	11/18/2024	44	3	4	4	344	Loyal Customers	Dealer
+C0444	30	39970050	1/8/2024	359	1	1	2	112	Hibernating Customers	Dealer
+C0445	28	44860580	12/28/2024	4	5	1	3	513	Recent Customers	Government
+C0446	34	40839770	10/16/2024	77	2	3	2	232	At Risk - Low Recency	Retail
+C0447	33	48124660	12/23/2024	9	5	2	4	524	Potential Loyalists	Fleet Owner
+C0448	36	53706280	12/11/2024	21	4	3	4	434	Potential Loyalists	Fleet Owner
+C0449	32	43705510	11/19/2024	43	3	2	3	323	Other Customers	Fleet Owner
+C0450	38	43401530	9/12/2024	111	1	4	3	143	At Risk - Low Recency	Fleet Owner
+C0451	37	38981780	7/6/2024	179	1	4	2	142	At Risk - Low Recency	Government
+C0452	35	31479440	12/27/2024	5	5	3	1	531	Potential Loyalists	Fleet Owner
+C0453	31	46607160	12/1/2024	31	4	2	3	423	Potential Loyalists	Dealer
+C0454	33	32847670	11/14/2024	48	3	2	1	321	Other Customers	Government
+C0455	35	49656280	11/27/2024	35	4	3	4	434	Potential Loyalists	Retail
+C0456	27	24747800	10/16/2024	77	2	1	1	211	Hibernating Customers	Corporate
+C0457	33	44351780	11/15/2024	47	3	2	3	323	Other Customers	Retail
+C0458	38	39941170	12/28/2024	4	5	4	2	542	Loyal Customers	Dealer
+C0459	41	56361360	12/14/2024	18	4	5	5	455	Champions	Retail
+C0460	32	50664330	11/25/2024	37	3	2	4	324	Other Customers	Dealer
+C0461	36	44543940	10/31/2024	62	2	3	3	233	At Risk - Low Recency	Corporate
+C0462	49	64949220	11/13/2024	49	3	5	5	355	Loyal Customers	Retail
+C0463	35	43452000	8/22/2024	132	1	3	3	133	At Risk - Low Recency	Dealer
+C0464	38	52908510	9/13/2024	110	1	4	4	144	At Risk - Low Recency	Corporate
+C0465	35	37783870	12/12/2024	20	4	3	2	432	Potential Loyalists	Fleet Owner
+C0466	47	69276730	12/13/2024	19	4	5	5	455	Champions	Retail
+C0467	48	49361930	11/6/2024	56	3	5	4	354	Loyal Customers	Retail
+C0468	49	59022070	11/10/2024	52	3	5	5	355	Loyal Customers	Fleet Owner
+C0469	40	53714930	12/18/2024	14	5	4	4	544	Champions	Government
+C0470	36	38599240	9/27/2024	96	2	3	2	232	At Risk - Low Recency	Government
+C0471	37	51389940	11/27/2024	35	4	4	4	444	Champions	Fleet Owner
+C0472	34	43087580	11/23/2024	39	3	3	3	333	Other Customers	Dealer
+C0473	26	32922260	11/15/2024	47	3	1	1	311	Other Customers	Government
+C0474	30	37863700	11/7/2024	55	3	1	2	312	Other Customers	Government
+C0475	55	74442140	12/18/2024	14	5	5	5	555	Champions	Fleet Owner
+C0476	34	57777740	9/29/2024	94	2	3	5	235	At Risk - Low Recency	Fleet Owner
+C0477	36	45286770	10/13/2024	80	2	3	3	233	At Risk - Low Recency	Government
+C0478	44	59528290	12/29/2024	3	5	5	5	555	Champions	Retail
+C0479	26	29592950	10/8/2024	85	2	1	1	211	Hibernating Customers	Retail
+C0480	34	38076520	11/24/2024	38	3	3	2	332	Other Customers	Government
+C0481	39	47455190	12/31/2024	1	5	4	3	543	Loyal Customers	Corporate
+C0482	31	57846740	12/3/2024	29	4	2	5	425	Potential Loyalists	Fleet Owner
+C0483	47	75352940	12/18/2024	14	5	5	5	555	Champions	Corporate
+C0484	27	37883370	11/10/2024	52	3	1	2	312	Other Customers	Fleet Owner
+C0485	28	46389160	10/1/2024	92	2	1	3	213	Hibernating Customers	Fleet Owner
+C0486	34	41350080	10/7/2024	86	2	3	2	232	At Risk - Low Recency	Government
+C0487	26	31063950	3/18/2024	289	1	1	1	111	Hibernating Customers	Dealer
+C0488	37	52826960	11/26/2024	36	4	4	4	444	Champions	Government
+C0489	47	55400350	8/17/2024	137	1	5	5	155	At Risk - Low Recency	Fleet Owner
+C0490	44	66510660	12/29/2024	3	5	5	5	555	Champions	Government
+C0491	27	51140830	7/4/2024	181	1	1	4	114	Hibernating Customers	Dealer
+C0492	35	48527140	11/5/2024	57	3	3	4	334	Other Customers	Dealer
+C0493	38	42934640	11/22/2024	40	3	4	3	343	Loyal Customers	Retail
+C0494	32	37868420	11/28/2024	34	4	2	2	422	Potential Loyalists	Corporate
+C0495	48	74165320	11/25/2024	37	3	5	5	355	Loyal Customers	Fleet Owner
+C0496	37	37818650	12/27/2024	5	5	4	2	542	Loyal Customers	Government
+C0497	30	40341140	11/2/2024	60	2	1	2	212	Hibernating Customers	Government
+C0498	28	50845460	8/19/2024	135	1	1	4	114	Hibernating Customers	Fleet Owner
+C0499	39	49218150	11/29/2024	33	4	4	4	444	Champions	Corporate
+C0500	27	34912870	12/7/2024	25	4	1	1	411	Recent Customers	Corporate
