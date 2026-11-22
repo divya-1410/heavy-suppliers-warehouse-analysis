@@ -1,0 +1,501 @@
+customer_id,total_orders,historical_value,first_purchase,last_purchase,average_order_value,days_since_last_purchase,value_category,median_purchase_gap_days,risk_threshold_days,retention_indicator,customer_type,Customer_Segment
+C0001,34,43201680,2019-01-26,2024-11-15,1270637.6470588236,46,Other Customers,54.0,108.0,Recently Active,Retail,Needs Attention
+C0002,51,56261100,2019-01-24,2024-09-07,1103158.8235294118,115,High Value,22.5,45.0,Potential At Risk,Fleet Owner,At Risk
+C0003,38,35112260,2019-04-05,2024-10-30,924006.8421052631,62,Other Customers,43.0,86.0,Recently Active,Government,At Risk
+C0004,46,47754210,2019-03-21,2024-12-31,1038135.0,0,Other Customers,42.0,84.0,Recently Active,Fleet Owner,Champions
+C0005,45,58882280,2019-02-28,2024-10-04,1308495.111111111,88,High Value,40.0,80.0,Potential At Risk,Dealer,At Risk
+C0006,40,51412280,2019-06-05,2024-09-02,1285307.0,120,Other Customers,27.0,54.0,Potential At Risk,Government,At Risk
+C0007,31,28648240,2019-05-08,2024-11-03,924136.7741935484,58,Other Customers,42.0,84.0,Recently Active,Corporate,Hibernating
+C0008,34,37972100,2019-03-04,2024-07-16,1116826.4705882352,168,Other Customers,46.0,92.0,Potential At Risk,Corporate,Hibernating
+C0009,34,54041610,2019-04-14,2024-11-04,1589459.1176470588,57,Other Customers,44.0,88.0,Recently Active,Corporate,Big Spenders
+C0010,46,49509380,2019-01-23,2024-11-27,1076290.8695652173,34,Other Customers,42.0,84.0,Recently Active,Dealer,Champions
+C0011,41,44933810,2019-01-03,2024-11-22,1095946.5853658537,39,Other Customers,34.5,69.0,Recently Active,Retail,Loyal Customers
+C0012,37,41835630,2019-01-28,2024-10-10,1130692.7027027027,82,Other Customers,40.0,80.0,Potential At Risk,Fleet Owner,At Risk
+C0013,44,60328180,2019-01-02,2024-10-27,1371095.0,65,High Value,36.0,72.0,Recently Active,Dealer,At Risk
+C0014,27,32598320,2019-03-05,2024-12-21,1207345.1851851852,10,Other Customers,39.0,78.0,Recently Active,Fleet Owner,Recent / Promising
+C0015,34,47922560,2019-02-18,2024-11-16,1409487.0588235294,45,Other Customers,37.0,74.0,Recently Active,Government,Big Spenders
+C0016,35,55572340,2019-01-18,2024-12-18,1587781.142857143,13,High Value,42.5,85.0,Recently Active,Government,Big Spenders
+C0017,39,46409400,2019-01-31,2024-12-21,1189984.6153846155,10,Other Customers,44.5,89.0,Recently Active,Government,Loyal Customers
+C0018,31,38692710,2019-06-10,2024-11-14,1248151.935483871,47,Other Customers,53.0,106.0,Recently Active,Retail,Needs Attention
+C0019,37,33389880,2019-01-19,2024-12-10,902429.1891891892,21,Other Customers,44.0,88.0,Recently Active,Government,Loyal Customers
+C0020,37,33443220,2019-01-26,2024-10-17,903870.8108108108,75,Other Customers,41.0,82.0,Recently Active,Dealer,At Risk
+C0021,45,47093630,2019-01-16,2024-10-01,1046525.1111111111,91,Other Customers,32.5,65.0,Potential At Risk,Corporate,At Risk
+C0022,38,44575550,2019-01-13,2024-11-06,1173040.7894736843,55,Other Customers,39.0,78.0,Recently Active,Retail,Loyal Customers
+C0023,32,45671740,2019-01-05,2024-12-27,1427241.875,4,Other Customers,53.0,106.0,Recently Active,Corporate,Recent / Promising
+C0024,44,47587690,2019-01-22,2024-09-17,1081538.4090909092,105,Other Customers,33.0,66.0,Potential At Risk,Dealer,At Risk
+C0025,38,55220350,2019-01-29,2024-08-18,1453167.105263158,135,High Value,44.0,88.0,Potential At Risk,Corporate,At Risk
+C0026,36,47482150,2019-01-09,2024-12-29,1318948.611111111,2,Other Customers,47.0,94.0,Recently Active,Fleet Owner,Needs Attention
+C0027,39,42577230,2019-03-25,2024-12-26,1091723.8461538462,5,Other Customers,31.5,63.0,Recently Active,Fleet Owner,Loyal Customers
+C0028,29,30031300,2019-01-22,2024-11-13,1035562.0689655172,48,Other Customers,53.0,106.0,Recently Active,Retail,Needs Attention
+C0029,38,45653420,2019-01-16,2024-06-30,1201405.7894736843,184,Other Customers,44.0,88.0,Potential At Risk,Dealer,At Risk
+C0030,32,45703710,2019-01-30,2024-09-02,1428240.9375,120,Other Customers,34.5,69.0,Potential At Risk,Corporate,Hibernating
+C0031,34,39680260,2019-04-11,2024-08-13,1167066.4705882352,140,Other Customers,44.0,88.0,Potential At Risk,Government,Hibernating
+C0032,44,56493850,2019-01-23,2024-10-25,1283951.1363636365,67,High Value,28.0,56.0,Potential At Risk,Government,At Risk
+C0033,30,38713690,2019-03-05,2024-12-12,1290456.3333333333,19,Other Customers,67.0,134.0,Recently Active,Government,Recent / Promising
+C0034,32,33363540,2019-01-05,2024-10-06,1042610.625,86,Other Customers,52.0,104.0,Recently Active,Government,Hibernating
+C0035,38,41878010,2019-01-07,2024-11-12,1102052.894736842,49,Other Customers,42.0,84.0,Recently Active,Dealer,Loyal Customers
+C0036,31,38418260,2019-06-26,2024-12-18,1239298.7096774194,13,Other Customers,43.0,86.0,Recently Active,Fleet Owner,Recent / Promising
+C0037,36,35689100,2019-06-12,2024-10-25,991363.8888888889,67,Other Customers,30.0,60.0,Potential At Risk,Corporate,At Risk
+C0038,36,45410090,2019-01-08,2024-11-29,1261391.388888889,32,Other Customers,35.0,70.0,Recently Active,Fleet Owner,Needs Attention
+C0039,38,49221640,2019-04-17,2024-11-28,1295306.3157894737,33,Other Customers,37.0,74.0,Recently Active,Fleet Owner,Champions
+C0040,43,42259970,2019-02-23,2024-12-21,982790.0,10,Other Customers,42.0,84.0,Recently Active,Government,Loyal Customers
+C0041,38,53358620,2019-01-11,2024-06-11,1404174.2105263157,203,Other Customers,33.0,66.0,Potential At Risk,Government,At Risk
+C0042,41,57941340,2019-01-25,2024-10-13,1413203.4146341463,79,High Value,34.0,68.0,Potential At Risk,Fleet Owner,At Risk
+C0043,36,37467660,2019-04-04,2024-06-14,1040768.3333333334,200,Other Customers,46.0,92.0,Potential At Risk,Corporate,At Risk
+C0044,34,38929350,2019-01-05,2024-11-17,1144980.8823529412,44,Other Customers,47.0,94.0,Recently Active,Government,Needs Attention
+C0045,42,59085670,2019-02-02,2024-12-15,1406801.6666666667,16,High Value,38.0,76.0,Recently Active,Corporate,Champions
+C0046,46,68236200,2019-02-03,2024-12-09,1483395.652173913,22,High Value,37.5,75.0,Recently Active,Retail,Champions
+C0047,30,45416100,2019-04-06,2024-08-25,1513870.0,128,Other Customers,50.0,100.0,Potential At Risk,Corporate,Hibernating
+C0048,31,38811940,2019-04-05,2024-09-12,1251998.064516129,110,Other Customers,37.5,75.0,Potential At Risk,Dealer,Hibernating
+C0049,39,64589840,2019-01-25,2024-12-25,1656149.7435897435,6,High Value,39.5,79.0,Recently Active,Dealer,Champions
+C0050,27,44016360,2019-01-11,2024-12-14,1630235.5555555555,17,Other Customers,54.5,109.0,Recently Active,Dealer,Recent / Promising
+C0051,36,46593280,2019-02-15,2024-11-15,1294257.7777777778,46,Other Customers,33.5,67.0,Recently Active,Retail,Needs Attention
+C0052,35,44420040,2019-02-12,2024-12-11,1269144.0,20,Other Customers,45.5,91.0,Recently Active,Government,Needs Attention
+C0053,27,35369930,2019-05-16,2024-09-18,1309997.4074074074,104,Other Customers,51.0,102.0,Potential At Risk,Fleet Owner,Hibernating
+C0054,37,49743760,2019-01-31,2024-12-14,1344425.945945946,17,Other Customers,44.5,89.0,Recently Active,Fleet Owner,Champions
+C0055,32,46311140,2019-04-01,2024-12-11,1447223.125,20,Other Customers,52.0,104.0,Recently Active,Dealer,Recent / Promising
+C0056,36,47730860,2019-01-08,2024-11-10,1325857.2222222222,51,Other Customers,36.0,72.0,Recently Active,Dealer,Big Spenders
+C0057,32,39001020,2019-03-20,2024-12-04,1218781.875,27,Other Customers,57.0,114.0,Recently Active,Retail,Recent / Promising
+C0058,40,44606750,2019-01-23,2024-12-24,1115168.75,7,Other Customers,40.0,80.0,Recently Active,Retail,Loyal Customers
+C0059,32,44636580,2019-01-21,2024-12-20,1394893.125,11,Other Customers,64.0,128.0,Recently Active,Retail,Recent / Promising
+C0060,44,60575030,2019-07-20,2024-11-24,1376705.2272727273,37,High Value,35.0,70.0,Recently Active,Dealer,Loyal Customers
+C0061,29,26564250,2019-01-29,2024-09-08,916008.6206896552,114,Other Customers,51.5,103.0,Potential At Risk,Dealer,Hibernating
+C0062,36,61918150,2019-03-18,2024-10-31,1719948.611111111,61,High Value,36.0,72.0,Recently Active,Dealer,Big Spenders
+C0063,38,56519080,2019-02-28,2024-12-19,1487344.2105263157,12,High Value,53.0,106.0,Recently Active,Retail,Champions
+C0064,32,45390350,2019-03-21,2024-10-18,1418448.4375,74,Other Customers,24.0,48.0,Potential At Risk,Corporate,Hibernating
+C0065,36,46865770,2019-01-07,2024-12-12,1301826.9444444445,19,Other Customers,52.0,104.0,Recently Active,Corporate,Needs Attention
+C0066,32,42371560,2019-01-29,2024-10-11,1324111.25,81,Other Customers,53.0,106.0,Recently Active,Retail,Hibernating
+C0067,31,43570420,2019-05-29,2024-12-30,1405497.4193548388,1,Other Customers,45.5,91.0,Recently Active,Retail,Recent / Promising
+C0068,39,45062980,2019-03-11,2024-12-06,1155461.0256410257,25,Other Customers,40.5,81.0,Recently Active,Retail,Loyal Customers
+C0069,47,60517360,2019-02-18,2024-12-11,1287603.4042553192,20,High Value,31.0,62.0,Recently Active,Dealer,Champions
+C0070,41,60254230,2019-02-04,2024-12-20,1469615.3658536586,11,High Value,35.0,70.0,Recently Active,Government,Champions
+C0071,42,56572600,2019-01-24,2024-11-26,1346966.6666666667,35,High Value,37.5,75.0,Recently Active,Corporate,Champions
+C0072,26,43449850,2019-06-15,2024-12-23,1671148.076923077,8,Other Customers,40.0,80.0,Recently Active,Government,Recent / Promising
+C0073,32,44726770,2019-03-23,2024-11-12,1397711.5625,49,Other Customers,58.0,116.0,Recently Active,Corporate,Needs Attention
+C0074,39,39627770,2019-01-10,2024-12-31,1016096.6666666666,0,Other Customers,46.0,92.0,Recently Active,Fleet Owner,Loyal Customers
+C0075,33,39435130,2019-04-17,2024-10-20,1195003.9393939395,72,Other Customers,49.5,99.0,Recently Active,Retail,Hibernating
+C0076,45,62759940,2019-01-12,2024-10-06,1394665.3333333333,86,High Value,26.0,52.0,Potential At Risk,Government,At Risk
+C0077,34,45390570,2019-02-05,2024-12-16,1335016.7647058824,15,Other Customers,34.0,68.0,Recently Active,Corporate,Recent / Promising
+C0078,31,33430220,2019-01-31,2024-06-22,1078394.1935483871,192,Other Customers,51.5,103.0,Potential At Risk,Dealer,Hibernating
+C0079,31,36993090,2019-01-25,2024-11-28,1193325.4838709678,33,Other Customers,25.5,51.0,Recently Active,Retail,Recent / Promising
+C0080,42,44386690,2019-02-20,2024-11-03,1056825.9523809524,58,Other Customers,45.0,90.0,Recently Active,Retail,At Risk
+C0081,37,44271750,2019-01-03,2024-12-23,1196533.7837837837,8,Other Customers,42.0,84.0,Recently Active,Corporate,Loyal Customers
+C0082,46,60929520,2019-03-17,2024-12-18,1324554.7826086956,13,High Value,34.0,68.0,Recently Active,Fleet Owner,Champions
+C0083,45,70378740,2019-05-23,2024-10-04,1563972.0,88,High Value,30.0,60.0,Potential At Risk,Dealer,At Risk
+C0084,39,57484480,2019-04-29,2024-09-22,1473961.0256410257,100,High Value,34.5,69.0,Potential At Risk,Corporate,At Risk
+C0085,37,47385290,2019-01-01,2024-09-20,1280683.5135135136,102,Other Customers,31.5,63.0,Potential At Risk,Retail,At Risk
+C0086,29,46746570,2019-01-12,2024-11-22,1611950.6896551724,39,Other Customers,71.5,143.0,Recently Active,Retail,Needs Attention
+C0087,39,39608130,2019-01-22,2024-12-17,1015593.0769230769,14,Other Customers,50.5,101.0,Recently Active,Government,Loyal Customers
+C0088,36,44991010,2019-01-26,2024-08-06,1249750.2777777778,147,Other Customers,54.0,108.0,Potential At Risk,Corporate,At Risk
+C0089,37,37054300,2019-01-02,2024-11-14,1001467.5675675676,47,Other Customers,43.0,86.0,Recently Active,Corporate,Loyal Customers
+C0090,43,40810370,2019-03-16,2024-10-22,949078.3720930233,70,Other Customers,33.0,66.0,Potential At Risk,Government,At Risk
+C0091,30,30689510,2019-01-09,2024-09-07,1022983.6666666666,115,Other Customers,55.5,111.0,Potential At Risk,Retail,Hibernating
+C0092,36,36740510,2019-01-17,2024-07-30,1020569.7222222222,154,Other Customers,44.5,89.0,Potential At Risk,Fleet Owner,At Risk
+C0093,36,45460060,2019-02-13,2024-12-01,1262779.4444444445,30,Other Customers,34.0,68.0,Recently Active,Dealer,Needs Attention
+C0094,31,36407440,2019-01-18,2024-09-20,1174433.5483870967,102,Other Customers,52.0,104.0,Recently Active,Corporate,Hibernating
+C0095,29,43640740,2019-05-21,2024-12-26,1504853.103448276,5,Other Customers,45.0,90.0,Recently Active,Fleet Owner,Recent / Promising
+C0096,34,40828880,2019-01-02,2024-12-30,1200849.4117647058,1,Other Customers,50.0,100.0,Recently Active,Corporate,Recent / Promising
+C0097,26,37217840,2019-03-22,2024-12-16,1431455.3846153845,15,Other Customers,53.0,106.0,Recently Active,Corporate,Recent / Promising
+C0098,35,44013350,2019-03-14,2024-12-18,1257524.2857142857,13,Other Customers,38.0,76.0,Recently Active,Corporate,Needs Attention
+C0099,44,44372200,2019-01-10,2024-12-26,1008459.0909090909,5,Other Customers,37.0,74.0,Recently Active,Fleet Owner,Loyal Customers
+C0100,38,38016250,2019-01-25,2024-09-10,1000427.6315789474,112,Other Customers,48.0,96.0,Potential At Risk,Government,At Risk
+C0101,38,49185770,2019-02-26,2024-10-10,1294362.3684210526,82,Other Customers,37.0,74.0,Potential At Risk,Corporate,At Risk
+C0102,34,56370590,2019-03-11,2024-10-24,1657958.5294117648,68,High Value,35.0,70.0,Recently Active,Government,Big Spenders
+C0103,40,59164240,2019-02-21,2024-08-29,1479106.0,124,High Value,37.0,74.0,Potential At Risk,Dealer,At Risk
+C0104,34,33092730,2019-04-06,2024-12-30,973315.5882352941,1,Other Customers,53.0,106.0,Recently Active,Fleet Owner,Recent / Promising
+C0105,41,44966360,2019-05-25,2024-11-26,1096740.487804878,35,Other Customers,33.0,66.0,Recently Active,Government,Loyal Customers
+C0106,39,45839560,2019-04-07,2024-11-12,1175373.3333333333,49,Other Customers,43.0,86.0,Recently Active,Dealer,Loyal Customers
+C0107,49,66825070,2019-01-16,2024-12-11,1363776.9387755103,20,High Value,28.5,57.0,Recently Active,Fleet Owner,Champions
+C0108,24,24485250,2019-01-03,2024-12-29,1020218.75,2,Other Customers,64.0,128.0,Recently Active,Corporate,Recent / Promising
+C0109,44,54539050,2019-01-14,2024-12-09,1239523.8636363635,22,High Value,36.0,72.0,Recently Active,Retail,Champions
+C0110,42,71230450,2019-01-25,2024-06-21,1695963.0952380951,193,High Value,35.0,70.0,Potential At Risk,Dealer,At Risk
+C0111,33,43914790,2019-04-09,2024-12-16,1330751.2121212122,15,Other Customers,39.5,79.0,Recently Active,Corporate,Recent / Promising
+C0112,33,36333120,2019-02-27,2024-12-01,1101003.6363636365,30,Other Customers,46.5,93.0,Recently Active,Fleet Owner,Recent / Promising
+C0113,41,61701750,2019-01-13,2024-12-23,1504920.731707317,8,High Value,44.0,88.0,Recently Active,Corporate,Champions
+C0114,33,38178710,2019-02-09,2024-09-27,1156930.606060606,95,Other Customers,55.0,110.0,Recently Active,Retail,Hibernating
+C0115,29,34787020,2019-05-07,2024-11-28,1199552.4137931035,33,Other Customers,43.5,87.0,Recently Active,Fleet Owner,Recent / Promising
+C0116,35,50227070,2019-01-08,2024-07-28,1435059.142857143,156,Other Customers,34.0,68.0,Potential At Risk,Dealer,Big Spenders
+C0117,31,30628680,2019-01-01,2024-08-12,988021.9354838709,141,Other Customers,54.0,108.0,Potential At Risk,Government,Hibernating
+C0118,32,32892640,2019-02-03,2024-12-10,1027895.0,21,Other Customers,34.0,68.0,Recently Active,Retail,Recent / Promising
+C0119,51,52748640,2019-01-07,2024-10-26,1034287.0588235294,66,Other Customers,31.0,62.0,Potential At Risk,Government,At Risk
+C0120,34,39523350,2019-01-02,2024-11-15,1162451.4705882352,46,Other Customers,43.0,86.0,Recently Active,Fleet Owner,Needs Attention
+C0121,34,36904340,2019-01-22,2024-12-01,1085421.7647058824,30,Other Customers,40.0,80.0,Recently Active,Government,Recent / Promising
+C0122,31,37712330,2019-01-12,2024-11-05,1216526.7741935484,56,Other Customers,60.5,121.0,Recently Active,Dealer,Needs Attention
+C0123,36,54900300,2019-01-16,2024-11-04,1525008.3333333333,57,High Value,41.0,82.0,Recently Active,Corporate,Big Spenders
+C0124,42,43084310,2019-01-11,2024-11-04,1025816.9047619047,57,Other Customers,36.5,73.0,Recently Active,Dealer,Loyal Customers
+C0125,30,25077820,2019-02-17,2024-12-09,835927.3333333334,22,Other Customers,53.0,106.0,Recently Active,Government,Recent / Promising
+C0126,33,50213860,2019-03-05,2024-04-05,1521632.121212121,270,Other Customers,47.0,94.0,Potential At Risk,Dealer,Big Spenders
+C0127,28,38456060,2019-03-01,2024-06-25,1373430.7142857143,189,Other Customers,71.0,142.0,Potential At Risk,Government,Hibernating
+C0128,33,54226840,2019-01-02,2024-12-18,1643237.5757575757,13,Other Customers,39.0,78.0,Recently Active,Retail,Big Spenders
+C0129,36,59941820,2019-01-06,2024-10-31,1665050.5555555555,61,High Value,41.0,82.0,Recently Active,Corporate,Big Spenders
+C0130,39,47103710,2019-02-17,2024-11-16,1207787.435897436,45,Other Customers,42.0,84.0,Recently Active,Government,Loyal Customers
+C0131,32,46237660,2019-02-21,2024-06-14,1444926.875,200,Other Customers,34.0,68.0,Potential At Risk,Corporate,Hibernating
+C0132,37,38534330,2019-02-22,2024-10-01,1041468.3783783783,91,Other Customers,39.0,78.0,Potential At Risk,Corporate,At Risk
+C0133,29,40181100,2019-03-27,2024-04-07,1385555.1724137932,268,Other Customers,33.0,66.0,Potential At Risk,Government,Hibernating
+C0134,48,66943890,2019-03-03,2024-11-24,1394664.375,37,High Value,40.0,80.0,Recently Active,Fleet Owner,Loyal Customers
+C0135,35,49182970,2019-03-09,2024-08-27,1405227.7142857143,126,Other Customers,42.5,85.0,Potential At Risk,Retail,Big Spenders
+C0136,37,35915090,2019-03-23,2024-11-13,970678.1081081082,48,Other Customers,33.0,66.0,Recently Active,Dealer,Loyal Customers
+C0137,21,33571570,2019-06-13,2024-06-10,1598646.1904761905,204,Other Customers,81.0,162.0,Potential At Risk,Dealer,Hibernating
+C0138,34,49111730,2019-01-10,2024-12-25,1444462.6470588236,6,Other Customers,59.0,118.0,Recently Active,Corporate,Big Spenders
+C0139,29,29295750,2019-03-13,2024-10-31,1010198.275862069,61,Other Customers,31.0,62.0,Recently Active,Government,Hibernating
+C0140,37,47230520,2019-03-18,2024-11-24,1276500.5405405406,37,Other Customers,40.0,80.0,Recently Active,Retail,Loyal Customers
+C0141,36,51926540,2019-04-06,2024-11-15,1442403.888888889,46,Other Customers,52.0,104.0,Recently Active,Corporate,Big Spenders
+C0142,45,66580100,2019-02-06,2024-12-08,1479557.7777777778,23,High Value,39.5,79.0,Recently Active,Retail,Champions
+C0143,27,35058490,2019-01-11,2024-08-02,1298462.5925925926,151,Other Customers,63.0,126.0,Potential At Risk,Corporate,Hibernating
+C0144,25,31072090,2019-04-02,2024-08-23,1242883.6,130,Other Customers,62.5,125.0,Potential At Risk,Fleet Owner,Hibernating
+C0145,33,27079080,2019-04-01,2024-12-29,820578.1818181818,2,Other Customers,50.0,100.0,Recently Active,Retail,Recent / Promising
+C0146,30,48058590,2019-01-20,2024-12-31,1601953.0,0,Other Customers,57.0,114.0,Recently Active,Retail,Big Spenders
+C0147,30,34566290,2019-07-21,2024-12-22,1152209.6666666667,9,Other Customers,58.0,116.0,Recently Active,Dealer,Recent / Promising
+C0148,35,43008380,2019-01-28,2024-12-09,1228810.857142857,22,Other Customers,37.0,74.0,Recently Active,Government,Needs Attention
+C0149,38,51241680,2019-02-28,2024-12-12,1348465.2631578948,19,Other Customers,43.0,86.0,Recently Active,Government,Champions
+C0150,30,32673410,2019-07-12,2024-11-09,1089113.6666666667,52,Other Customers,33.0,66.0,Recently Active,Fleet Owner,Needs Attention
+C0151,27,31051670,2019-03-03,2024-11-28,1150061.851851852,33,Other Customers,64.0,128.0,Recently Active,Government,Recent / Promising
+C0152,40,48907690,2019-03-10,2024-11-18,1222692.25,43,Other Customers,38.0,76.0,Recently Active,Corporate,Loyal Customers
+C0153,56,84966970,2019-01-17,2024-12-12,1517267.3214285714,19,High Value,24.0,48.0,Recently Active,Retail,Champions
+C0154,45,58187170,2019-01-29,2024-08-21,1293048.2222222222,132,High Value,40.5,81.0,Potential At Risk,Fleet Owner,At Risk
+C0155,31,32588940,2019-11-15,2024-12-17,1051256.1290322582,14,Other Customers,49.5,99.0,Recently Active,Fleet Owner,Recent / Promising
+C0156,33,52631480,2019-01-14,2024-09-17,1594893.3333333333,105,Other Customers,41.0,82.0,Potential At Risk,Government,Big Spenders
+C0157,34,43654580,2019-02-15,2024-12-30,1283958.2352941176,1,Other Customers,40.0,80.0,Recently Active,Dealer,Recent / Promising
+C0158,36,46231390,2019-03-03,2024-09-26,1284205.2777777778,96,Other Customers,32.0,64.0,Potential At Risk,Corporate,At Risk
+C0159,34,39245590,2019-02-02,2024-12-26,1154282.0588235294,5,Other Customers,50.0,100.0,Recently Active,Dealer,Recent / Promising
+C0160,44,55534390,2019-02-19,2024-11-23,1262145.2272727273,38,High Value,30.0,60.0,Recently Active,Retail,Loyal Customers
+C0161,37,47774340,2019-03-24,2024-11-17,1291198.3783783785,44,Other Customers,51.0,102.0,Recently Active,Dealer,Loyal Customers
+C0162,28,48770920,2019-07-05,2024-10-14,1741818.5714285714,78,Other Customers,62.5,125.0,Recently Active,Retail,Big Spenders
+C0163,38,36480350,2019-06-02,2024-08-05,960009.2105263158,148,Other Customers,46.0,92.0,Potential At Risk,Dealer,At Risk
+C0164,36,35851210,2019-01-11,2024-11-13,995866.9444444445,48,Other Customers,59.0,118.0,Recently Active,Government,Needs Attention
+C0165,50,62168180,2019-02-27,2024-12-24,1243363.6,7,High Value,20.0,40.0,Recently Active,Fleet Owner,Champions
+C0166,32,54482720,2019-01-18,2024-12-08,1702585.0,23,High Value,47.0,94.0,Recently Active,Fleet Owner,Big Spenders
+C0167,31,39616580,2019-01-03,2024-12-28,1277954.1935483871,3,Other Customers,36.5,73.0,Recently Active,Retail,Recent / Promising
+C0168,34,50309900,2019-06-02,2024-12-18,1479702.9411764706,13,Other Customers,49.0,98.0,Recently Active,Dealer,Big Spenders
+C0169,40,54509920,2019-03-25,2024-10-27,1362748.0,65,High Value,51.0,102.0,Recently Active,Fleet Owner,At Risk
+C0170,27,30542780,2019-03-21,2024-12-20,1131214.0740740742,11,Other Customers,53.0,106.0,Recently Active,Government,Recent / Promising
+C0171,30,43403890,2019-04-27,2024-10-19,1446796.3333333333,73,Other Customers,53.0,106.0,Recently Active,Fleet Owner,Hibernating
+C0172,37,44967390,2019-08-18,2024-11-27,1215334.8648648649,34,Other Customers,36.5,73.0,Recently Active,Dealer,Loyal Customers
+C0173,31,45510430,2019-03-29,2024-10-18,1468078.3870967743,74,Other Customers,63.0,126.0,Recently Active,Retail,Hibernating
+C0174,29,23386250,2019-01-11,2024-12-03,806422.4137931034,28,Other Customers,65.0,130.0,Recently Active,Government,Recent / Promising
+C0175,36,46583410,2019-01-24,2024-11-01,1293983.611111111,60,Other Customers,52.0,104.0,Recently Active,Fleet Owner,At Risk
+C0176,42,52504460,2019-01-14,2024-08-07,1250106.1904761905,146,Other Customers,33.0,66.0,Potential At Risk,Dealer,At Risk
+C0177,28,28125780,2019-04-01,2024-12-25,1004492.1428571428,6,Other Customers,52.5,105.0,Recently Active,Dealer,Recent / Promising
+C0178,54,70236970,2019-01-22,2024-12-09,1300684.6296296297,22,High Value,26.0,52.0,Recently Active,Dealer,Champions
+C0179,32,34009700,2019-05-20,2024-07-21,1062803.125,163,Other Customers,40.0,80.0,Potential At Risk,Government,Hibernating
+C0180,27,23677460,2019-01-04,2024-12-10,876942.9629629629,21,Other Customers,48.5,97.0,Recently Active,Fleet Owner,Recent / Promising
+C0181,36,41700450,2019-04-13,2024-12-15,1158345.8333333333,16,Other Customers,45.0,90.0,Recently Active,Government,Needs Attention
+C0182,29,32105700,2019-03-03,2024-08-03,1107093.103448276,150,Other Customers,55.5,111.0,Potential At Risk,Dealer,Hibernating
+C0183,27,25426200,2019-02-03,2024-12-05,941711.1111111111,26,Other Customers,55.5,111.0,Recently Active,Government,Recent / Promising
+C0184,29,48287230,2019-03-12,2024-11-28,1665076.896551724,33,Other Customers,59.5,119.0,Recently Active,Retail,Big Spenders
+C0185,33,37319640,2019-03-25,2024-09-16,1130898.1818181819,106,Other Customers,45.5,91.0,Potential At Risk,Dealer,Hibernating
+C0186,40,55408900,2019-02-17,2024-12-11,1385222.5,20,High Value,42.0,84.0,Recently Active,Fleet Owner,Champions
+C0187,30,36769950,2019-05-02,2024-11-08,1225665.0,53,Other Customers,50.0,100.0,Recently Active,Retail,Needs Attention
+C0188,39,42691360,2019-03-04,2024-12-27,1094650.2564102565,4,Other Customers,44.0,88.0,Recently Active,Corporate,Loyal Customers
+C0189,35,47996060,2019-03-03,2024-11-11,1371316.0,50,Other Customers,39.0,78.0,Recently Active,Government,Big Spenders
+C0190,35,44179380,2019-05-15,2024-12-29,1262268.0,2,Other Customers,34.5,69.0,Recently Active,Retail,Needs Attention
+C0191,29,51572860,2019-02-03,2024-12-12,1778374.4827586208,19,Other Customers,47.5,95.0,Recently Active,Corporate,Big Spenders
+C0192,40,54295880,2019-01-19,2024-08-29,1357397.0,124,Other Customers,37.0,74.0,Potential At Risk,Fleet Owner,At Risk
+C0193,38,53179600,2019-01-10,2024-11-30,1399463.1578947369,31,Other Customers,33.5,67.0,Recently Active,Dealer,Champions
+C0194,33,37787710,2019-04-15,2024-12-26,1145082.121212121,5,Other Customers,50.5,101.0,Recently Active,Fleet Owner,Recent / Promising
+C0195,31,44526020,2019-02-15,2024-12-28,1436323.2258064516,3,Other Customers,50.5,101.0,Recently Active,Fleet Owner,Recent / Promising
+C0196,48,55921870,2019-01-09,2024-10-28,1165038.9583333333,64,High Value,33.0,66.0,Recently Active,Fleet Owner,At Risk
+C0197,47,60798070,2019-02-22,2024-10-18,1293575.9574468085,74,High Value,25.5,51.0,Potential At Risk,Government,At Risk
+C0198,36,49819290,2019-03-27,2024-08-01,1383869.1666666667,152,Other Customers,38.0,76.0,Potential At Risk,Government,Big Spenders
+C0199,33,38456880,2019-01-19,2024-10-21,1165360.0,71,Other Customers,46.0,92.0,Recently Active,Government,Hibernating
+C0200,47,66268870,2019-02-09,2024-11-25,1409975.9574468085,36,High Value,33.5,67.0,Recently Active,Retail,Loyal Customers
+C0201,47,63133600,2019-02-01,2024-12-13,1343268.085106383,18,High Value,30.0,60.0,Recently Active,Dealer,Champions
+C0202,28,39546540,2019-09-19,2024-09-21,1412376.4285714286,101,Other Customers,56.0,112.0,Recently Active,Government,Hibernating
+C0203,35,42161670,2019-02-25,2024-11-19,1204619.142857143,42,Other Customers,40.5,81.0,Recently Active,Government,Needs Attention
+C0204,31,31359900,2019-05-20,2024-12-08,1011609.6774193548,23,Other Customers,36.0,72.0,Recently Active,Retail,Recent / Promising
+C0205,33,40742250,2019-02-07,2024-11-15,1234613.6363636365,46,Other Customers,46.0,92.0,Recently Active,Retail,Needs Attention
+C0206,40,70279540,2019-01-08,2024-12-11,1756988.5,20,High Value,34.0,68.0,Recently Active,Retail,Champions
+C0207,45,68312200,2019-02-10,2024-10-13,1518048.888888889,79,High Value,42.0,84.0,Recently Active,Corporate,At Risk
+C0208,30,36866060,2019-01-20,2024-12-30,1228868.6666666667,1,Other Customers,59.0,118.0,Recently Active,Fleet Owner,Recent / Promising
+C0209,44,51373630,2019-10-18,2024-11-22,1167582.5,39,Other Customers,39.0,78.0,Recently Active,Corporate,Loyal Customers
+C0210,30,41928210,2019-02-20,2024-11-26,1397607.0,35,Other Customers,40.0,80.0,Recently Active,Retail,Recent / Promising
+C0211,42,46705690,2019-03-06,2024-11-20,1112040.238095238,41,Other Customers,32.0,64.0,Recently Active,Fleet Owner,Loyal Customers
+C0212,31,35519950,2019-02-01,2024-08-23,1145804.8387096773,130,Other Customers,46.5,93.0,Potential At Risk,Retail,Hibernating
+C0213,30,51921070,2019-02-26,2024-08-31,1730702.3333333333,122,Other Customers,37.0,74.0,Potential At Risk,Fleet Owner,Big Spenders
+C0214,31,39709250,2019-01-12,2024-12-26,1280943.5483870967,5,Other Customers,47.0,94.0,Recently Active,Corporate,Recent / Promising
+C0215,49,58120530,2019-02-28,2024-12-24,1186133.2653061224,7,High Value,24.0,48.0,Recently Active,Corporate,Champions
+C0216,39,48655520,2019-01-27,2024-11-20,1247577.435897436,41,Other Customers,35.5,71.0,Recently Active,Government,Loyal Customers
+C0217,36,48179740,2019-01-19,2024-12-18,1338326.111111111,13,Other Customers,45.0,90.0,Recently Active,Corporate,Big Spenders
+C0218,36,34801450,2019-02-02,2024-10-16,966706.9444444445,76,Other Customers,31.0,62.0,Potential At Risk,Fleet Owner,At Risk
+C0219,39,47075000,2019-01-09,2024-12-21,1207051.282051282,10,Other Customers,54.5,109.0,Recently Active,Government,Loyal Customers
+C0220,43,41988750,2019-01-19,2024-11-06,976482.5581395349,55,Other Customers,37.0,74.0,Recently Active,Government,Loyal Customers
+C0221,44,64336800,2019-01-17,2024-09-05,1462200.0,117,High Value,34.0,68.0,Potential At Risk,Dealer,At Risk
+C0222,41,44904020,2019-01-30,2024-12-13,1095220.0,18,Other Customers,38.5,77.0,Recently Active,Fleet Owner,Loyal Customers
+C0223,33,42492870,2019-03-01,2024-10-15,1287662.7272727273,77,Other Customers,53.5,107.0,Recently Active,Corporate,Hibernating
+C0224,36,42395680,2019-01-30,2024-10-31,1177657.7777777778,61,Other Customers,46.0,92.0,Recently Active,Retail,At Risk
+C0225,48,54324600,2019-03-17,2024-07-17,1131762.5,167,High Value,31.0,62.0,Potential At Risk,Fleet Owner,At Risk
+C0226,26,36902950,2019-01-22,2024-09-28,1419344.2307692308,94,Other Customers,51.0,102.0,Recently Active,Dealer,Hibernating
+C0227,34,45457070,2019-02-13,2024-10-24,1336972.6470588236,68,Other Customers,49.0,98.0,Recently Active,Fleet Owner,Hibernating
+C0228,34,47933580,2019-03-27,2024-09-10,1409811.1764705882,112,Other Customers,41.0,82.0,Potential At Risk,Government,Big Spenders
+C0229,28,34806810,2019-05-15,2024-11-29,1243100.357142857,32,Other Customers,65.0,130.0,Recently Active,Government,Recent / Promising
+C0230,38,48757760,2019-02-19,2024-10-31,1283098.9473684211,61,Other Customers,29.0,58.0,Potential At Risk,Dealer,At Risk
+C0231,32,40582530,2019-02-21,2024-11-08,1268204.0625,53,Other Customers,47.0,94.0,Recently Active,Government,Needs Attention
+C0232,37,45159600,2019-01-24,2024-12-29,1220529.7297297297,2,Other Customers,39.0,78.0,Recently Active,Government,Loyal Customers
+C0233,28,39173800,2019-05-29,2024-10-21,1399064.2857142857,71,Other Customers,39.0,78.0,Recently Active,Government,Hibernating
+C0234,29,56717930,2019-01-09,2024-12-26,1955790.6896551724,5,High Value,56.5,113.0,Recently Active,Corporate,Big Spenders
+C0235,38,47454230,2019-05-08,2024-09-10,1248795.5263157894,112,Other Customers,32.0,64.0,Potential At Risk,Fleet Owner,At Risk
+C0236,41,45446800,2019-03-21,2024-10-25,1108458.536585366,67,Other Customers,34.0,68.0,Recently Active,Corporate,At Risk
+C0237,44,58676380,2019-01-28,2024-10-15,1333554.0909090908,77,High Value,31.0,62.0,Potential At Risk,Dealer,At Risk
+C0238,30,28891440,2019-01-22,2024-03-25,963048.0,281,Other Customers,38.0,76.0,Potential At Risk,Corporate,Hibernating
+C0239,32,35255050,2019-10-11,2024-10-27,1101720.3125,65,Other Customers,39.0,78.0,Recently Active,Government,Hibernating
+C0240,46,72778580,2019-02-19,2024-11-10,1582143.043478261,51,High Value,31.0,62.0,Recently Active,Corporate,Loyal Customers
+C0241,39,57604400,2019-02-01,2024-10-31,1477035.8974358975,61,High Value,37.0,74.0,Recently Active,Government,At Risk
+C0242,47,57416320,2019-01-30,2024-11-18,1221623.829787234,43,High Value,25.0,50.0,Recently Active,Government,Loyal Customers
+C0243,28,33315370,2019-11-20,2024-12-10,1189834.642857143,21,Other Customers,65.0,130.0,Recently Active,Government,Recent / Promising
+C0244,44,60886580,2019-05-06,2024-12-09,1383785.9090909092,22,High Value,30.0,60.0,Recently Active,Government,Champions
+C0245,33,44342070,2019-01-01,2024-11-30,1343699.0909090908,31,Other Customers,50.0,100.0,Recently Active,Dealer,Recent / Promising
+C0246,35,60399770,2019-01-26,2024-11-02,1725707.7142857143,59,High Value,38.5,77.0,Recently Active,Retail,Big Spenders
+C0247,39,53174220,2019-02-14,2024-11-13,1363441.5384615385,48,Other Customers,41.0,82.0,Recently Active,Corporate,Loyal Customers
+C0248,30,35510400,2019-01-10,2024-12-04,1183680.0,27,Other Customers,45.5,91.0,Recently Active,Fleet Owner,Recent / Promising
+C0249,35,49712310,2019-01-16,2024-09-03,1420351.7142857143,119,Other Customers,32.5,65.0,Potential At Risk,Corporate,Big Spenders
+C0250,43,58330380,2019-03-08,2024-12-20,1356520.465116279,11,High Value,29.5,59.0,Recently Active,Government,Champions
+C0251,36,47504560,2019-01-09,2024-07-06,1319571.111111111,178,Other Customers,52.0,104.0,Potential At Risk,Dealer,At Risk
+C0252,34,35584220,2019-08-03,2024-10-07,1046594.7058823529,85,Other Customers,43.0,86.0,Recently Active,Retail,Hibernating
+C0253,39,57279120,2019-03-28,2024-11-27,1468695.3846153845,34,High Value,39.0,78.0,Recently Active,Retail,Champions
+C0254,48,70227620,2019-07-01,2024-09-25,1463075.4166666667,97,High Value,21.0,42.0,Potential At Risk,Dealer,At Risk
+C0255,45,55876690,2019-01-05,2024-11-11,1241704.2222222222,50,High Value,42.5,85.0,Recently Active,Retail,Loyal Customers
+C0256,30,46110780,2019-01-03,2024-09-19,1537026.0,103,Other Customers,47.0,94.0,Potential At Risk,Corporate,Hibernating
+C0257,43,59812600,2019-01-18,2024-12-23,1390990.6976744186,8,High Value,39.0,78.0,Recently Active,Corporate,Champions
+C0258,28,48830880,2019-02-04,2024-10-10,1743960.0,82,Other Customers,43.0,86.0,Recently Active,Corporate,Big Spenders
+C0259,33,47259670,2019-02-02,2024-12-13,1432111.2121212122,18,Other Customers,53.0,106.0,Recently Active,Fleet Owner,Recent / Promising
+C0260,32,43590270,2019-08-24,2024-09-05,1362195.9375,117,Other Customers,36.0,72.0,Potential At Risk,Dealer,Hibernating
+C0261,33,49449470,2019-05-06,2024-12-06,1498468.7878787878,25,Other Customers,53.5,107.0,Recently Active,Dealer,Big Spenders
+C0262,26,28771050,2019-02-26,2024-12-04,1106578.8461538462,27,Other Customers,62.0,124.0,Recently Active,Corporate,Recent / Promising
+C0263,35,48351480,2019-03-06,2024-11-01,1381470.857142857,60,Other Customers,39.5,79.0,Recently Active,Government,Big Spenders
+C0264,36,52753710,2019-01-02,2024-11-02,1465380.8333333333,59,Other Customers,40.0,80.0,Recently Active,Retail,Big Spenders
+C0265,29,37594220,2019-02-19,2024-09-27,1296352.4137931035,95,Other Customers,35.0,70.0,Potential At Risk,Retail,Hibernating
+C0266,35,39797800,2019-01-22,2024-09-24,1137080.0,98,Other Customers,43.5,87.0,Potential At Risk,Fleet Owner,At Risk
+C0267,29,36465390,2019-03-07,2024-03-25,1257427.2413793104,281,Other Customers,38.0,76.0,Potential At Risk,Fleet Owner,Hibernating
+C0268,32,49962270,2019-01-21,2024-10-07,1561320.9375,85,Other Customers,73.0,146.0,Recently Active,Government,Big Spenders
+C0269,41,48367030,2019-01-12,2024-11-22,1179683.6585365853,39,Other Customers,38.5,77.0,Recently Active,Government,Loyal Customers
+C0270,43,53374960,2019-03-27,2024-12-20,1241278.1395348837,11,Other Customers,39.0,78.0,Recently Active,Corporate,Champions
+C0271,24,29644660,2019-06-05,2024-11-26,1235194.1666666667,35,Other Customers,62.0,124.0,Recently Active,Corporate,Recent / Promising
+C0272,39,59253070,2019-09-01,2024-12-13,1519309.4871794872,18,High Value,44.0,88.0,Recently Active,Government,Champions
+C0273,37,47764950,2019-05-04,2024-12-31,1290944.5945945946,0,Other Customers,43.0,86.0,Recently Active,Dealer,Champions
+C0274,39,42946740,2019-01-08,2024-06-27,1101198.4615384615,187,Other Customers,34.0,68.0,Potential At Risk,Dealer,At Risk
+C0275,45,50445750,2019-06-17,2024-11-06,1121016.6666666667,55,Other Customers,44.0,88.0,Recently Active,Fleet Owner,Loyal Customers
+C0276,44,52803770,2019-01-08,2024-12-29,1200085.6818181819,2,Other Customers,44.0,88.0,Recently Active,Dealer,Champions
+C0277,36,34361720,2019-05-28,2024-09-14,954492.2222222222,108,Other Customers,48.0,96.0,Potential At Risk,Dealer,At Risk
+C0278,38,37042540,2019-08-12,2024-12-03,974803.6842105263,28,Other Customers,29.0,58.0,Recently Active,Fleet Owner,Loyal Customers
+C0279,26,27795350,2019-05-12,2024-11-12,1069051.923076923,49,Other Customers,41.0,82.0,Recently Active,Dealer,Needs Attention
+C0280,42,46383310,2019-01-12,2024-11-05,1104364.5238095238,56,Other Customers,55.0,110.0,Recently Active,Corporate,Loyal Customers
+C0281,26,36333020,2019-07-26,2024-06-25,1397423.8461538462,189,Other Customers,50.5,101.0,Potential At Risk,Government,Hibernating
+C0282,44,54475470,2019-01-17,2024-12-24,1238078.8636363635,7,High Value,30.0,60.0,Recently Active,Government,Champions
+C0283,31,34916310,2019-04-14,2024-09-04,1126332.5806451612,118,Other Customers,41.5,83.0,Potential At Risk,Retail,Hibernating
+C0284,41,54612880,2019-01-09,2024-12-23,1332021.463414634,8,High Value,36.5,73.0,Recently Active,Corporate,Champions
+C0285,47,42474460,2019-02-11,2024-12-05,903711.914893617,26,Other Customers,34.0,68.0,Recently Active,Government,Loyal Customers
+C0286,36,47333390,2019-01-06,2024-12-29,1314816.388888889,2,Other Customers,46.0,92.0,Recently Active,Dealer,Needs Attention
+C0287,36,43261120,2019-03-22,2024-11-27,1201697.7777777778,34,Other Customers,47.0,94.0,Recently Active,Dealer,Needs Attention
+C0288,55,76291160,2019-02-21,2024-10-18,1387112.0,74,High Value,31.0,62.0,Potential At Risk,Dealer,At Risk
+C0289,35,39396940,2019-02-07,2024-10-29,1125626.857142857,63,Other Customers,61.5,123.0,Recently Active,Corporate,At Risk
+C0290,40,45014240,2019-03-04,2024-11-15,1125356.0,46,Other Customers,32.0,64.0,Recently Active,Corporate,Loyal Customers
+C0291,46,61983900,2019-03-13,2024-12-03,1347476.0869565217,28,High Value,37.0,74.0,Recently Active,Retail,Champions
+C0292,27,24356960,2019-01-11,2024-04-28,902109.6296296297,247,Other Customers,63.0,126.0,Potential At Risk,Corporate,Hibernating
+C0293,36,52424230,2019-01-19,2024-09-25,1456228.611111111,97,Other Customers,38.0,76.0,Potential At Risk,Dealer,Big Spenders
+C0294,45,62587650,2019-03-26,2024-12-27,1390836.6666666667,4,High Value,30.0,60.0,Recently Active,Government,Champions
+C0295,38,51330170,2019-03-07,2024-10-09,1350793.9473684211,83,Other Customers,31.0,62.0,Potential At Risk,Corporate,At Risk
+C0296,40,44706560,2019-01-02,2024-11-07,1117664.0,54,Other Customers,41.0,82.0,Recently Active,Corporate,Loyal Customers
+C0297,34,57279920,2019-02-13,2024-07-01,1684703.5294117648,183,High Value,30.0,60.0,Potential At Risk,Fleet Owner,Big Spenders
+C0298,33,36725200,2019-01-05,2024-11-20,1112884.8484848484,41,Other Customers,46.5,93.0,Recently Active,Fleet Owner,Needs Attention
+C0299,34,37822560,2019-01-24,2024-08-30,1112428.2352941176,123,Other Customers,57.0,114.0,Potential At Risk,Retail,Hibernating
+C0300,40,57051500,2019-05-05,2024-11-18,1426287.5,43,High Value,37.0,74.0,Recently Active,Dealer,Loyal Customers
+C0301,46,50074420,2019-01-13,2024-12-19,1088574.347826087,12,Other Customers,27.5,55.0,Recently Active,Dealer,Champions
+C0302,36,49894150,2019-02-05,2024-12-24,1385948.611111111,7,Other Customers,49.0,98.0,Recently Active,Fleet Owner,Big Spenders
+C0303,27,25492220,2019-04-05,2024-12-01,944156.2962962963,30,Other Customers,59.0,118.0,Recently Active,Corporate,Recent / Promising
+C0304,48,67903880,2019-01-26,2024-12-25,1414664.1666666667,6,High Value,41.0,82.0,Recently Active,Dealer,Champions
+C0305,31,37914410,2019-05-16,2024-11-27,1223045.4838709678,34,Other Customers,53.0,106.0,Recently Active,Fleet Owner,Recent / Promising
+C0306,42,54784400,2019-07-19,2024-12-16,1304390.4761904762,15,High Value,31.0,62.0,Recently Active,Fleet Owner,Champions
+C0307,42,57776220,2019-01-15,2024-11-24,1375624.2857142857,37,High Value,38.0,76.0,Recently Active,Dealer,Loyal Customers
+C0308,33,39549470,2019-02-19,2024-12-12,1198468.7878787878,19,Other Customers,41.5,83.0,Recently Active,Retail,Recent / Promising
+C0309,31,29869120,2019-03-04,2024-12-17,963520.0,14,Other Customers,37.0,74.0,Recently Active,Government,Recent / Promising
+C0310,39,46376420,2019-05-30,2024-11-07,1189138.9743589743,54,Other Customers,36.5,73.0,Recently Active,Government,Loyal Customers
+C0311,41,54370990,2019-02-03,2024-09-17,1326121.7073170731,105,High Value,38.0,76.0,Potential At Risk,Government,At Risk
+C0312,37,51311620,2019-04-16,2024-11-17,1386800.5405405406,44,Other Customers,43.0,86.0,Recently Active,Government,Loyal Customers
+C0313,30,37841680,2019-05-28,2024-09-02,1261389.3333333333,120,Other Customers,57.0,114.0,Potential At Risk,Corporate,Hibernating
+C0314,36,46037410,2019-01-22,2024-09-26,1278816.9444444445,96,Other Customers,33.0,66.0,Potential At Risk,Retail,At Risk
+C0315,40,48208830,2019-01-09,2024-12-17,1205220.75,14,Other Customers,43.0,86.0,Recently Active,Dealer,Champions
+C0316,33,35655050,2019-03-08,2024-09-22,1080456.0606060605,100,Other Customers,45.0,90.0,Potential At Risk,Dealer,Hibernating
+C0317,32,34026890,2019-01-17,2024-12-25,1063340.3125,6,Other Customers,51.0,102.0,Recently Active,Corporate,Recent / Promising
+C0318,36,48754200,2019-01-08,2024-10-17,1354283.3333333333,75,Other Customers,54.0,108.0,Recently Active,Corporate,Big Spenders
+C0319,33,47364750,2019-05-16,2024-12-08,1435295.4545454546,23,Other Customers,49.0,98.0,Recently Active,Dealer,Recent / Promising
+C0320,34,42001120,2019-04-01,2024-12-30,1235327.0588235294,1,Other Customers,54.0,108.0,Recently Active,Retail,Recent / Promising
+C0321,38,42809230,2019-01-04,2024-06-28,1126558.6842105263,186,Other Customers,40.0,80.0,Potential At Risk,Retail,At Risk
+C0322,28,32200600,2019-04-10,2024-12-10,1150021.4285714286,21,Other Customers,61.0,122.0,Recently Active,Government,Recent / Promising
+C0323,36,39487910,2019-01-11,2024-12-22,1096886.388888889,9,Other Customers,44.0,88.0,Recently Active,Government,Needs Attention
+C0324,35,41098360,2019-01-24,2024-08-24,1174238.857142857,129,Other Customers,49.5,99.0,Potential At Risk,Corporate,At Risk
+C0325,30,41524630,2019-03-03,2024-11-09,1384154.3333333333,52,Other Customers,41.0,82.0,Recently Active,Corporate,Needs Attention
+C0326,42,51922180,2019-03-14,2024-12-30,1236242.380952381,1,Other Customers,43.0,86.0,Recently Active,Government,Champions
+C0327,43,47883020,2019-02-01,2024-12-06,1113558.6046511629,25,Other Customers,32.5,65.0,Recently Active,Retail,Champions
+C0328,37,49201820,2019-01-03,2024-12-05,1329778.9189189188,26,Other Customers,54.0,108.0,Recently Active,Government,Champions
+C0329,36,50414010,2019-01-03,2024-12-26,1400389.1666666667,5,Other Customers,52.5,105.0,Recently Active,Dealer,Big Spenders
+C0330,38,42673670,2019-02-12,2024-08-10,1122991.3157894737,143,Other Customers,45.0,90.0,Potential At Risk,Retail,At Risk
+C0331,42,53327060,2019-04-12,2024-12-15,1269691.9047619049,16,Other Customers,34.0,68.0,Recently Active,Dealer,Champions
+C0332,35,35068830,2019-01-19,2024-11-11,1001966.5714285715,50,Other Customers,42.0,84.0,Recently Active,Corporate,Needs Attention
+C0333,39,49686600,2019-01-09,2024-12-02,1274015.3846153845,29,Other Customers,40.0,80.0,Recently Active,Corporate,Champions
+C0334,33,29449120,2019-01-03,2024-08-24,892397.5757575758,129,Other Customers,50.5,101.0,Potential At Risk,Corporate,Hibernating
+C0335,38,47401100,2019-01-31,2024-11-03,1247397.3684210526,58,Other Customers,40.0,80.0,Recently Active,Government,At Risk
+C0336,33,30736480,2019-04-29,2024-09-26,931408.4848484849,96,Other Customers,43.5,87.0,Potential At Risk,Government,Hibernating
+C0337,34,57585510,2019-04-15,2024-08-25,1693691.4705882352,128,High Value,36.0,72.0,Potential At Risk,Corporate,Big Spenders
+C0338,33,40964750,2019-02-01,2024-11-23,1241356.0606060605,38,Other Customers,39.5,79.0,Recently Active,Corporate,Needs Attention
+C0339,24,31557880,2019-05-01,2024-08-16,1314911.6666666667,137,Other Customers,46.0,92.0,Potential At Risk,Fleet Owner,Hibernating
+C0340,35,49824870,2019-01-05,2024-12-04,1423567.7142857143,27,Other Customers,65.0,130.0,Recently Active,Government,Big Spenders
+C0341,36,52480080,2019-03-10,2024-10-07,1457780.0,85,Other Customers,38.0,76.0,Potential At Risk,Fleet Owner,Big Spenders
+C0342,36,57066210,2019-12-04,2024-10-09,1585172.5,83,High Value,45.0,90.0,Recently Active,Dealer,Big Spenders
+C0343,40,53611870,2019-02-28,2024-11-21,1340296.75,40,Other Customers,48.0,96.0,Recently Active,Corporate,Loyal Customers
+C0344,28,37729300,2019-01-04,2024-06-17,1347475.0,197,Other Customers,40.5,81.0,Potential At Risk,Fleet Owner,Hibernating
+C0345,40,39617420,2019-02-21,2024-11-20,990435.5,41,Other Customers,41.0,82.0,Recently Active,Retail,Loyal Customers
+C0346,39,42873560,2019-01-21,2024-11-15,1099322.0512820513,46,Other Customers,40.0,80.0,Recently Active,Retail,Loyal Customers
+C0347,24,17721530,2019-03-04,2024-12-03,738397.0833333334,28,Other Customers,71.0,142.0,Recently Active,Retail,Recent / Promising
+C0348,34,39978280,2019-04-15,2024-10-24,1175831.7647058824,68,Other Customers,43.0,86.0,Recently Active,Retail,Hibernating
+C0349,33,44485700,2019-01-31,2024-10-19,1348051.5151515151,73,Other Customers,40.0,80.0,Recently Active,Corporate,Hibernating
+C0350,32,32353150,2019-05-03,2024-11-25,1011035.9375,36,Other Customers,54.0,108.0,Recently Active,Dealer,Needs Attention
+C0351,34,35183170,2019-03-29,2024-09-12,1034799.1176470588,110,Other Customers,43.0,86.0,Potential At Risk,Corporate,Hibernating
+C0352,30,31581590,2019-02-23,2024-11-11,1052719.6666666667,50,Other Customers,53.0,106.0,Recently Active,Corporate,Needs Attention
+C0353,27,25154270,2019-01-16,2024-10-08,931639.6296296297,84,Other Customers,50.5,101.0,Recently Active,Dealer,Hibernating
+C0354,37,44585860,2019-01-06,2024-12-25,1205023.2432432433,6,Other Customers,47.5,95.0,Recently Active,Corporate,Loyal Customers
+C0355,32,46214030,2019-01-03,2024-12-18,1444188.4375,13,Other Customers,48.5,97.0,Recently Active,Government,Recent / Promising
+C0356,45,62479450,2019-03-16,2024-12-05,1388432.2222222222,26,High Value,41.5,83.0,Recently Active,Dealer,Champions
+C0357,28,45252290,2019-01-05,2024-11-17,1616153.2142857143,44,Other Customers,64.0,128.0,Recently Active,Corporate,Needs Attention
+C0358,36,46632120,2019-04-17,2024-10-01,1295336.6666666667,91,Other Customers,43.0,86.0,Potential At Risk,Government,At Risk
+C0359,46,67221300,2019-02-12,2024-11-28,1461332.608695652,33,High Value,45.0,90.0,Recently Active,Fleet Owner,Champions
+C0360,31,42914200,2019-05-25,2024-11-17,1384329.0322580645,44,Other Customers,66.0,132.0,Recently Active,Dealer,Needs Attention
+C0361,32,41202210,2019-01-15,2024-09-26,1287569.0625,96,Other Customers,46.0,92.0,Potential At Risk,Government,Hibernating
+C0362,37,41935190,2019-02-26,2024-10-11,1133383.5135135136,81,Other Customers,30.5,61.0,Potential At Risk,Corporate,At Risk
+C0363,32,42048290,2019-05-10,2024-11-07,1314009.0625,54,Other Customers,64.0,128.0,Recently Active,Fleet Owner,Needs Attention
+C0364,32,42733560,2019-03-14,2024-11-18,1335423.75,43,Other Customers,50.0,100.0,Recently Active,Government,Needs Attention
+C0365,39,47362240,2019-01-04,2024-09-15,1214416.4102564103,107,Other Customers,42.0,84.0,Potential At Risk,Government,At Risk
+C0366,26,34264010,2019-03-09,2024-10-26,1317846.5384615385,66,Other Customers,60.0,120.0,Recently Active,Corporate,Hibernating
+C0367,27,45173860,2019-02-28,2024-11-04,1673105.9259259258,57,Other Customers,38.0,76.0,Recently Active,Fleet Owner,Needs Attention
+C0368,31,40673710,2019-02-17,2024-11-01,1312055.1612903227,60,Other Customers,60.0,120.0,Recently Active,Fleet Owner,Hibernating
+C0369,40,50690940,2019-01-26,2024-12-13,1267273.5,18,Other Customers,51.0,102.0,Recently Active,Government,Champions
+C0370,36,42286970,2019-02-18,2024-12-18,1174638.0555555555,13,Other Customers,42.0,84.0,Recently Active,Corporate,Needs Attention
+C0371,47,64331600,2019-01-03,2024-11-02,1368757.4468085107,59,High Value,39.5,79.0,Recently Active,Retail,At Risk
+C0372,36,41513200,2019-02-15,2024-07-10,1153144.4444444445,174,Other Customers,44.0,88.0,Potential At Risk,Government,At Risk
+C0373,38,54767460,2019-04-03,2024-09-02,1441248.9473684211,120,High Value,36.0,72.0,Potential At Risk,Corporate,At Risk
+C0374,41,53669570,2019-03-07,2024-12-10,1309013.9024390243,21,Other Customers,37.5,75.0,Recently Active,Corporate,Champions
+C0375,42,63738420,2019-02-20,2024-11-03,1517581.4285714286,58,High Value,32.0,64.0,Recently Active,Fleet Owner,At Risk
+C0376,29,40903770,2019-07-01,2024-11-24,1410474.8275862068,37,Other Customers,31.0,62.0,Recently Active,Retail,Needs Attention
+C0377,37,53755340,2019-02-01,2024-12-07,1452847.027027027,24,Other Customers,34.5,69.0,Recently Active,Dealer,Champions
+C0378,35,39739040,2019-01-19,2024-11-16,1135401.142857143,45,Other Customers,41.0,82.0,Recently Active,Retail,Needs Attention
+C0379,41,50443570,2019-03-29,2024-12-15,1230330.975609756,16,Other Customers,49.0,98.0,Recently Active,Retail,Champions
+C0380,50,61154260,2019-01-29,2024-11-03,1223085.2,58,High Value,39.0,78.0,Recently Active,Fleet Owner,At Risk
+C0381,29,48585550,2019-07-06,2024-11-17,1675363.7931034483,44,Other Customers,46.0,92.0,Recently Active,Corporate,Big Spenders
+C0382,33,33715150,2019-04-17,2024-11-19,1021671.2121212122,42,Other Customers,33.0,66.0,Recently Active,Retail,Needs Attention
+C0383,41,53480050,2019-02-18,2024-11-19,1304391.463414634,42,Other Customers,31.0,62.0,Recently Active,Fleet Owner,Loyal Customers
+C0384,39,56692240,2019-02-05,2024-09-09,1453647.1794871795,113,High Value,31.0,62.0,Potential At Risk,Retail,At Risk
+C0385,37,52865670,2019-07-27,2024-09-23,1428801.8918918918,99,Other Customers,35.0,70.0,Potential At Risk,Corporate,At Risk
+C0386,32,38385820,2019-04-23,2024-11-04,1199556.875,57,Other Customers,42.0,84.0,Recently Active,Retail,Needs Attention
+C0387,34,37034600,2019-01-02,2024-10-26,1089252.9411764706,66,Other Customers,48.0,96.0,Recently Active,Dealer,Hibernating
+C0388,27,30890020,2019-03-21,2024-12-12,1144074.8148148148,19,Other Customers,59.0,118.0,Recently Active,Fleet Owner,Recent / Promising
+C0389,30,38241650,2019-04-04,2024-11-25,1274721.6666666667,36,Other Customers,57.0,114.0,Recently Active,Retail,Needs Attention
+C0390,32,50314950,2019-03-23,2024-11-09,1572342.1875,52,Other Customers,50.0,100.0,Recently Active,Fleet Owner,Big Spenders
+C0391,33,36944480,2019-01-14,2024-11-30,1119529.696969697,31,Other Customers,58.0,116.0,Recently Active,Government,Recent / Promising
+C0392,31,30249660,2019-02-11,2024-12-12,975795.4838709678,19,Other Customers,47.5,95.0,Recently Active,Fleet Owner,Recent / Promising
+C0393,39,40195010,2019-03-27,2024-12-18,1030641.282051282,13,Other Customers,39.0,78.0,Recently Active,Retail,Loyal Customers
+C0394,40,54868190,2019-03-08,2024-11-21,1371704.75,40,High Value,30.0,60.0,Recently Active,Government,Loyal Customers
+C0395,44,50643860,2019-02-21,2024-12-20,1150996.8181818181,11,Other Customers,46.0,92.0,Recently Active,Corporate,Champions
+C0396,38,50680080,2019-01-14,2024-12-07,1333686.3157894737,24,Other Customers,32.0,64.0,Recently Active,Government,Champions
+C0397,36,44216230,2019-02-11,2024-11-22,1228228.611111111,39,Other Customers,39.5,79.0,Recently Active,Fleet Owner,Needs Attention
+C0398,35,45379170,2019-09-10,2024-12-02,1296547.7142857143,29,Other Customers,38.0,76.0,Recently Active,Government,Needs Attention
+C0399,39,46532600,2019-01-03,2024-12-25,1193143.5897435897,6,Other Customers,53.0,106.0,Recently Active,Fleet Owner,Loyal Customers
+C0400,35,40610020,2019-04-06,2024-10-23,1160286.2857142857,69,Other Customers,44.0,88.0,Recently Active,Government,At Risk
+C0401,36,45711960,2019-01-11,2024-10-25,1269776.6666666667,67,Other Customers,39.0,78.0,Recently Active,Government,At Risk
+C0402,35,34212640,2019-01-25,2024-07-12,977504.0,172,Other Customers,38.0,76.0,Potential At Risk,Fleet Owner,At Risk
+C0403,45,63236900,2019-02-19,2024-12-10,1405264.4444444445,21,High Value,40.0,80.0,Recently Active,Government,Champions
+C0404,31,36224330,2019-02-10,2024-12-26,1168526.7741935484,5,Other Customers,44.0,88.0,Recently Active,Government,Recent / Promising
+C0405,32,39790100,2019-01-30,2024-06-25,1243440.625,189,Other Customers,48.0,96.0,Potential At Risk,Corporate,Hibernating
+C0406,32,50826330,2019-02-25,2024-10-11,1588322.8125,81,Other Customers,51.0,102.0,Recently Active,Dealer,Big Spenders
+C0407,38,42882880,2019-02-01,2024-12-25,1128496.8421052631,6,Other Customers,44.0,88.0,Recently Active,Dealer,Loyal Customers
+C0408,36,47201090,2019-07-06,2024-11-02,1311141.388888889,59,Other Customers,41.0,82.0,Recently Active,Government,At Risk
+C0409,45,47755320,2019-01-19,2024-10-09,1061229.3333333333,83,Other Customers,33.5,67.0,Potential At Risk,Government,At Risk
+C0410,39,46906860,2019-03-03,2024-11-27,1202740.0,34,Other Customers,42.0,84.0,Recently Active,Corporate,Loyal Customers
+C0411,43,56645350,2019-07-14,2024-12-12,1317333.7209302327,19,High Value,30.0,60.0,Recently Active,Corporate,Champions
+C0412,32,33987820,2019-04-20,2024-05-28,1062119.375,217,Other Customers,45.0,90.0,Potential At Risk,Corporate,Hibernating
+C0413,41,48986230,2019-02-06,2024-11-08,1194786.0975609757,53,Other Customers,32.0,64.0,Recently Active,Fleet Owner,Loyal Customers
+C0414,40,52044170,2019-02-16,2024-12-31,1301104.25,0,Other Customers,38.5,77.0,Recently Active,Dealer,Champions
+C0415,33,53841670,2019-03-21,2024-10-11,1631565.7575757576,81,Other Customers,38.5,77.0,Potential At Risk,Government,Big Spenders
+C0416,37,36145900,2019-01-05,2024-10-20,976916.2162162162,72,Other Customers,48.0,96.0,Recently Active,Dealer,At Risk
+C0417,32,40806780,2019-12-18,2024-09-11,1275211.875,111,Other Customers,41.5,83.0,Potential At Risk,Fleet Owner,Hibernating
+C0418,30,37023670,2019-03-18,2024-11-14,1234122.3333333333,47,Other Customers,33.0,66.0,Recently Active,Government,Needs Attention
+C0419,31,48221790,2019-03-05,2024-09-30,1555541.6129032257,92,Other Customers,50.0,100.0,Recently Active,Fleet Owner,Big Spenders
+C0420,46,72545910,2019-01-10,2024-11-22,1577085.0,39,High Value,34.0,68.0,Recently Active,Retail,Loyal Customers
+C0421,38,54492210,2019-04-06,2024-06-21,1434005.5263157894,193,High Value,41.0,82.0,Potential At Risk,Retail,At Risk
+C0422,37,51607190,2019-09-19,2024-11-04,1394788.9189189188,57,Other Customers,28.5,57.0,Recently Active,Government,Loyal Customers
+C0423,30,36819280,2019-02-25,2024-11-09,1227309.3333333333,52,Other Customers,38.0,76.0,Recently Active,Dealer,Needs Attention
+C0424,35,45692330,2019-03-22,2024-09-23,1305495.142857143,99,Other Customers,37.5,75.0,Potential At Risk,Retail,At Risk
+C0425,41,53232320,2019-01-17,2024-12-09,1298349.268292683,22,Other Customers,35.5,71.0,Recently Active,Dealer,Champions
+C0426,35,44884200,2019-02-20,2024-12-03,1282405.7142857143,28,Other Customers,32.0,64.0,Recently Active,Dealer,Needs Attention
+C0427,41,41731940,2019-02-07,2024-11-26,1017852.1951219512,35,Other Customers,38.0,76.0,Recently Active,Corporate,Loyal Customers
+C0428,43,52052170,2019-01-25,2024-08-26,1210515.5813953488,127,Other Customers,32.5,65.0,Potential At Risk,Retail,At Risk
+C0429,42,54510440,2019-02-08,2024-10-21,1297867.619047619,71,High Value,37.0,74.0,Recently Active,Fleet Owner,At Risk
+C0430,27,35197560,2019-03-08,2024-10-11,1303613.3333333333,81,Other Customers,59.5,119.0,Recently Active,Retail,Hibernating
+C0431,28,35920190,2019-06-09,2024-07-05,1282863.9285714286,179,Other Customers,62.0,124.0,Potential At Risk,Government,Hibernating
+C0432,37,38717560,2019-01-26,2024-10-04,1046420.5405405406,88,Other Customers,41.0,82.0,Potential At Risk,Fleet Owner,At Risk
+C0433,31,44764880,2019-09-11,2024-05-27,1444028.3870967743,218,Other Customers,39.5,79.0,Potential At Risk,Dealer,Hibernating
+C0434,33,42768890,2019-01-05,2024-10-26,1296026.9696969697,66,Other Customers,52.5,105.0,Recently Active,Corporate,Hibernating
+C0435,50,57957990,2019-10-11,2024-11-01,1159159.8,60,High Value,23.5,47.0,Potential At Risk,Dealer,At Risk
+C0436,34,45357190,2019-02-01,2024-12-15,1334035.0,16,Other Customers,35.5,71.0,Recently Active,Fleet Owner,Recent / Promising
+C0437,30,36305140,2019-02-09,2024-12-21,1210171.3333333333,10,Other Customers,56.0,112.0,Recently Active,Dealer,Recent / Promising
+C0438,39,48432400,2019-06-17,2024-09-01,1241856.4102564103,121,Other Customers,38.5,77.0,Potential At Risk,Corporate,At Risk
+C0439,36,37351400,2019-03-21,2024-12-22,1037538.8888888889,9,Other Customers,43.0,86.0,Recently Active,Dealer,Needs Attention
+C0440,44,64680520,2019-01-29,2024-10-21,1470011.8181818181,71,High Value,35.0,70.0,Potential At Risk,Retail,At Risk
+C0441,31,37017660,2019-01-17,2024-10-19,1194118.064516129,73,Other Customers,56.5,113.0,Recently Active,Dealer,Hibernating
+C0442,33,41966020,2019-01-28,2024-10-20,1271697.5757575757,72,Other Customers,52.0,104.0,Recently Active,Dealer,Hibernating
+C0443,40,50982660,2019-03-27,2024-11-18,1274566.5,43,Other Customers,26.0,52.0,Recently Active,Dealer,Loyal Customers
+C0444,30,39970050,2019-02-25,2024-01-08,1332335.0,358,Other Customers,41.0,82.0,Potential At Risk,Dealer,Hibernating
+C0445,28,44860580,2019-04-04,2024-12-28,1602163.5714285714,3,Other Customers,51.0,102.0,Recently Active,Government,Recent / Promising
+C0446,34,40839770,2019-02-03,2024-10-16,1201169.705882353,76,Other Customers,48.0,96.0,Recently Active,Retail,Hibernating
+C0447,33,48124660,2019-05-16,2024-12-23,1458323.0303030303,8,Other Customers,33.5,67.0,Recently Active,Fleet Owner,Big Spenders
+C0448,36,53706280,2019-03-13,2024-12-11,1491841.111111111,20,Other Customers,44.0,88.0,Recently Active,Fleet Owner,Big Spenders
+C0449,32,43705510,2019-07-19,2024-11-19,1365797.1875,42,Other Customers,42.0,84.0,Recently Active,Fleet Owner,Needs Attention
+C0450,38,43401530,2019-01-15,2024-09-12,1142145.5263157894,110,Other Customers,37.0,74.0,Potential At Risk,Fleet Owner,At Risk
+C0451,37,38981780,2019-01-07,2024-07-06,1053561.6216216215,178,Other Customers,49.0,98.0,Potential At Risk,Government,At Risk
+C0452,35,31479440,2019-03-05,2024-12-27,899412.5714285715,4,Other Customers,53.0,106.0,Recently Active,Fleet Owner,Needs Attention
+C0453,31,46607160,2019-05-25,2024-12-01,1503456.7741935484,30,Other Customers,39.5,79.0,Recently Active,Dealer,Recent / Promising
+C0454,33,32847670,2019-02-08,2024-11-14,995383.9393939395,47,Other Customers,44.5,89.0,Recently Active,Government,Needs Attention
+C0455,35,49656280,2019-04-27,2024-11-27,1418750.857142857,34,Other Customers,22.0,44.0,Recently Active,Retail,Big Spenders
+C0456,27,24747800,2019-02-23,2024-10-16,916585.1851851852,76,Other Customers,39.5,79.0,Recently Active,Corporate,Hibernating
+C0457,33,44351780,2019-01-13,2024-11-15,1343993.3333333333,46,Other Customers,38.5,77.0,Recently Active,Retail,Needs Attention
+C0458,38,39941170,2019-07-09,2024-12-28,1051083.4210526317,3,Other Customers,48.0,96.0,Recently Active,Dealer,Loyal Customers
+C0459,41,56361360,2019-03-10,2024-12-14,1374667.3170731708,17,High Value,46.0,92.0,Recently Active,Retail,Champions
+C0460,32,50664330,2019-04-06,2024-11-25,1583260.3125,36,Other Customers,47.0,94.0,Recently Active,Dealer,Big Spenders
+C0461,36,44543940,2019-02-27,2024-10-31,1237331.6666666667,61,Other Customers,43.0,86.0,Recently Active,Corporate,At Risk
+C0462,49,64949220,2019-01-06,2024-11-13,1325494.2857142857,48,High Value,31.5,63.0,Recently Active,Retail,Loyal Customers
+C0463,35,43452000,2019-01-10,2024-08-22,1241485.7142857143,131,Other Customers,43.0,86.0,Potential At Risk,Dealer,At Risk
+C0464,38,52908510,2019-01-18,2024-09-13,1392329.2105263157,109,Other Customers,45.0,90.0,Potential At Risk,Corporate,At Risk
+C0465,35,37783870,2019-03-12,2024-12-12,1079539.142857143,19,Other Customers,37.0,74.0,Recently Active,Fleet Owner,Needs Attention
+C0466,47,69276730,2019-03-19,2024-12-13,1473972.9787234042,18,High Value,28.0,56.0,Recently Active,Retail,Champions
+C0467,48,49361930,2019-01-02,2024-11-06,1028373.5416666666,55,Other Customers,32.0,64.0,Recently Active,Retail,Loyal Customers
+C0468,49,59022070,2019-05-10,2024-11-10,1204532.0408163266,51,High Value,29.0,58.0,Recently Active,Fleet Owner,Loyal Customers
+C0469,40,53714930,2019-01-04,2024-12-18,1342873.25,13,Other Customers,42.0,84.0,Recently Active,Government,Champions
+C0470,36,38599240,2019-01-25,2024-09-27,1072201.111111111,95,Other Customers,40.0,80.0,Potential At Risk,Government,At Risk
+C0471,37,51389940,2019-02-23,2024-11-27,1388917.2972972973,34,Other Customers,21.0,42.0,Recently Active,Fleet Owner,Champions
+C0472,34,43087580,2019-04-29,2024-11-23,1267281.7647058824,38,Other Customers,63.0,126.0,Recently Active,Dealer,Needs Attention
+C0473,26,32922260,2019-03-04,2024-11-15,1266240.7692307692,46,Other Customers,54.5,109.0,Recently Active,Government,Needs Attention
+C0474,30,37863700,2019-01-11,2024-11-07,1262123.3333333333,54,Other Customers,54.0,108.0,Recently Active,Government,Needs Attention
+C0475,55,74442140,2019-01-19,2024-12-18,1353493.4545454546,13,High Value,30.0,60.0,Recently Active,Fleet Owner,Champions
+C0476,34,57777740,2019-01-13,2024-09-29,1699345.294117647,93,High Value,37.5,75.0,Potential At Risk,Fleet Owner,Big Spenders
+C0477,36,45286770,2019-06-12,2024-10-13,1257965.8333333333,79,Other Customers,43.0,86.0,Recently Active,Government,At Risk
+C0478,44,59528290,2019-02-04,2024-12-29,1352915.6818181819,2,High Value,52.0,104.0,Recently Active,Retail,Champions
+C0479,26,29592950,2019-02-22,2024-10-08,1138190.3846153845,84,Other Customers,66.0,132.0,Recently Active,Retail,Hibernating
+C0480,34,38076520,2019-01-24,2024-11-24,1119897.6470588236,37,Other Customers,53.0,106.0,Recently Active,Government,Needs Attention
+C0481,39,47455190,2019-01-03,2024-12-31,1216799.7435897435,0,Other Customers,29.5,59.0,Recently Active,Corporate,Loyal Customers
+C0482,31,57846740,2019-12-15,2024-12-03,1866023.8709677418,28,High Value,28.0,56.0,Recently Active,Fleet Owner,Big Spenders
+C0483,47,75352940,2019-02-20,2024-12-18,1603254.0425531915,13,High Value,37.0,74.0,Recently Active,Corporate,Champions
+C0484,27,37883370,2019-01-30,2024-11-10,1403087.7777777778,51,Other Customers,67.0,134.0,Recently Active,Fleet Owner,Needs Attention
+C0485,28,46389160,2019-01-14,2024-10-01,1656755.7142857143,91,Other Customers,48.0,96.0,Recently Active,Fleet Owner,Hibernating
+C0486,34,41350080,2019-01-01,2024-10-07,1216178.8235294118,85,Other Customers,33.0,66.0,Potential At Risk,Government,Hibernating
+C0487,26,31063950,2019-03-08,2024-03-18,1194767.3076923077,288,Other Customers,73.0,146.0,Potential At Risk,Dealer,Hibernating
+C0488,37,52826960,2019-03-01,2024-11-26,1427755.6756756757,35,Other Customers,44.0,88.0,Recently Active,Government,Champions
+C0489,47,55400350,2019-04-14,2024-08-17,1178730.8510638298,136,High Value,28.5,57.0,Potential At Risk,Fleet Owner,At Risk
+C0490,44,66510660,2019-01-26,2024-12-29,1511605.9090909092,2,High Value,31.0,62.0,Recently Active,Government,Champions
+C0491,27,51140830,2019-03-27,2024-07-04,1894104.8148148148,180,Other Customers,63.0,126.0,Potential At Risk,Dealer,Big Spenders
+C0492,35,48527140,2019-02-04,2024-11-05,1386489.7142857143,56,Other Customers,42.0,84.0,Recently Active,Dealer,Big Spenders
+C0493,38,42934640,2019-02-18,2024-11-22,1129858.9473684211,39,Other Customers,34.0,68.0,Recently Active,Retail,Loyal Customers
+C0494,32,37868420,2019-02-25,2024-11-28,1183388.125,33,Other Customers,37.0,74.0,Recently Active,Corporate,Recent / Promising
+C0495,48,74165320,2019-01-28,2024-11-25,1545110.8333333333,36,High Value,30.0,60.0,Recently Active,Fleet Owner,Loyal Customers
+C0496,37,37818650,2019-02-17,2024-12-27,1022125.6756756756,4,Other Customers,42.5,85.0,Recently Active,Government,Loyal Customers
+C0497,30,40341140,2019-06-12,2024-11-02,1344704.6666666667,59,Other Customers,60.0,120.0,Recently Active,Government,Hibernating
+C0498,28,50845460,2019-03-01,2024-08-19,1815909.2857142857,134,Other Customers,58.5,117.0,Potential At Risk,Fleet Owner,Big Spenders
+C0499,39,49218150,2019-01-18,2024-11-29,1262003.8461538462,32,Other Customers,44.0,88.0,Recently Active,Corporate,Champions
+C0500,27,34912870,2019-01-06,2024-12-07,1293069.2592592593,24,Other Customers,68.0,136.0,Recently Active,Corporate,Recent / Promising
