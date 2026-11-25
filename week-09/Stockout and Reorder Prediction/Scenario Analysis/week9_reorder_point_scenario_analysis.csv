@@ -1,0 +1,7 @@
+scenario,demand_multiplier,daily_demand_units,lead_time_multiplier,lead_time_days,safety_stock_multiplier,safety_stock_units,demand_during_lead_time_units,scenario_reorder_point_units,change_vs_baseline_units,interpretation
+Baseline,1.0,3.13,1.0,17.9,1.0,45.21,56.03,101.24,0.0,"Observed average demand, median lead time, and existing average safety stock"
+Lower demand,0.8,2.5,1.0,17.9,1.0,45.21,44.82,90.03,-11.21,Demand reduced by 20%; lead time and safety stock unchanged
+Higher demand,1.2,3.76,1.0,17.9,1.0,45.21,67.23,112.44,11.21,Demand increased by 20%; lead time and safety stock unchanged
+Longer lead time,1.0,3.13,1.25,22.38,1.0,45.21,70.03,115.24,14.01,Lead time increased by 25%; demand and safety stock unchanged
+Higher demand + longer lead time,1.2,3.76,1.25,22.38,1.25,56.51,84.04,140.55,39.32,"Demand +20%, lead time +25%, and safety stock +25%"
+Severe stress,1.3,4.07,1.5,26.85,1.5,67.81,109.25,177.07,75.83,"Demand +30%, lead time +50%, and safety stock +50%"
