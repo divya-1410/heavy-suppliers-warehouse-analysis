@@ -1,0 +1,5 @@
+Model,Pooled_WAPE
+Exponential Smoothing,40.01985003
+Moving Average,41.25491762
+Seasonal Naive,45.25446741
+Naive,47.09399089
